@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Daily Brew</title>
+    <link rel="icon" type="image/png" href="coffee-beans.png" />
+    <link href="https://cdn.jsdelivr.net/npm/computer-modern@0.1.2/index.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="brand">
+          <div class="brand__row">
+            <img class="brand__icon" src="coffee-beans.png" alt="" aria-hidden="true" />
+            <div>
+              <span class="brand__label">The</span>
+              <h1 class="brand__title">Daily Brew</h1>
+            </div>
+          </div>
+        </div>
+        <p class="hero__lead">
+          Tell us your mood and where you are. We will blend a hand-crafted drink
+          for the moment.
+        </p>
+        <div class="hero__meta">
+        </div>
+      </header>
+
+      <main class="card">
+        <form id="brew-form" class="form">
+          <div class="form__field">
+            <label for="mood">Mood</label>
+            <div class="mood-picker" id="mood-picker" role="group" aria-label="Select up to 3 moods">
+              <button type="button" class="mood-option" data-mood="angry"><span>Angry</span></button>
+              <button type="button" class="mood-option" data-mood="anxious"><span>Anxious</span></button>
+              <button type="button" class="mood-option" data-mood="bored"><span>Bored</span></button>
+              <button type="button" class="mood-option" data-mood="calm"><span>Calm</span></button>
+              <button type="button" class="mood-option" data-mood="curious"><span>Curious</span></button>
+              <button type="button" class="mood-option" data-mood="gloomy"><span>Gloomy</span></button>
+              <button type="button" class="mood-option" data-mood="happy"><span>Happy</span></button>
+              <button type="button" class="mood-option" data-mood="hopeful"><span>Hopeful</span></button>
+              <button type="button" class="mood-option" data-mood="lonely"><span>Lonely</span></button>
+              <button type="button" class="mood-option" data-mood="motivated"><span>Motivated</span></button>
+              <button type="button" class="mood-option" data-mood="numb"><span>Numb</span></button>
+              <button type="button" class="mood-option" data-mood="restless"><span>Restless</span></button>
+              <button type="button" class="mood-option" data-mood="sad"><span>Sad</span></button>
+              <button type="button" class="mood-option" data-mood="stressed"><span>Stressed</span></button>
+              <button type="button" class="mood-option" data-mood="tired"><span>Tired</span></button>
+            </div>
+            <div class="form__hint" id="mood-hint">Select up to 3 moods.</div>
+          </div>
+          <div class="form__field">
+            <label for="location">Location</label>
+            <input
+              id="location"
+              name="location"
+              type="text"
+              placeholder="Select a city from the list"
+              autocomplete="off"
+              list="city-list"
+              required
+            />
+            <datalist id="city-list"></datalist>
+            <div class="weather-panel">
+              <div class="weather" id="weather">Weather: --</div>
+              <div class="weather" id="local-time">Local time: --</div>
+            </div>
+          </div>
+          <button class="cta" type="submit">Brew my drink</button>
+        </form>
+
+        <section class="result" id="result" aria-live="polite">
+          <div class="result__badge">Recommendation</div>
+          <h2 class="result__title">Ready when you are.</h2>
+          <p class="result__description">
+            Share your mood and location to get a drink tailored to your moment.
+          </p>
+          <div class="result__details" id="details"></div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span>© 2026 Mo Liu — all rights reserved</span>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

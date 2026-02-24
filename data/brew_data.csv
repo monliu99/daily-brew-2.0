@@ -1,0 +1,1001 @@
+moods,time_segment,city,state,time_zone,temperature_f,weather,profile_id,drink_name,drink_notes
+calm,evening,Fresno,CA,America/Los_Angeles,60,clear,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+curious|gloomy,morning,Miami,FL,America/New_York,44,snow,house_blend,Cardamom cortado,Espresso; milk; and cardamom.
+gloomy|restless,evening,Anaheim,CA,America/Los_Angeles,66,thunderstorm,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+bored|angry,morning,San Diego,CA,America/Los_Angeles,55,overcast,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+lonely|anxious,afternoon,Honolulu,HI,Pacific/Honolulu,68,clear,espresso_smooth,Honey almond latte,Espresso; almond milk; and soft honey.
+angry,morning,San Antonio,TX,America/Chicago,79,thunderstorm,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+calm|lonely,afternoon,Anaheim,CA,America/Los_Angeles,51,mostly clear,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+angry|calm,evening,Washington,DC,America/New_York,48,rain,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+calm|bored,evening,Sacramento,CA,America/Los_Angeles,40,snow,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+anxious,evening,Arlington,TX,America/Chicago,44,drizzle,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+bored,afternoon,Fresno,CA,America/Los_Angeles,35,snow,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+calm|bored,evening,Indianapolis,IN,America/Indiana/Indianapolis,64,mostly clear,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+calm|bored,afternoon,Atlanta,GA,America/New_York,55,fog,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+stressed,afternoon,Nashville,TN,America/Chicago,63,showers,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+angry|anxious,morning,Cincinnati,OH,America/New_York,61,overcast,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+calm|bored,evening,Denver,CO,America/Denver,42,drizzle,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+restless,morning,Stockton,CA,America/Los_Angeles,76,clear,cold_brew_refresh,Bright lime cold brew,Cold brew; lime; and a touch of agave.
+gloomy|calm,afternoon,San Francisco,CA,America/Los_Angeles,56,showers,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+angry,morning,Milwaukee,WI,America/Chicago,60,overcast,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+gloomy|angry,afternoon,Nashville,TN,America/Chicago,50,fog,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+angry|anxious,evening,Atlanta,GA,America/New_York,50,overcast,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+happy|motivated,morning,St. Paul,MN,America/Chicago,73,clear,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+restless,afternoon,New Orleans,LA,America/Chicago,70,thunderstorm,espresso_bold,Minted espresso shaker,Espresso; mint; and lightly sweetened milk.
+happy|angry,morning,Mesa,AZ,America/Phoenix,56,rain,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+hopeful|angry,afternoon,Corpus Christi,TX,America/Chicago,57,showers,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+bored|restless|hopeful,afternoon,Portland,OR,America/Los_Angeles,55,clear,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+anxious|sad|numb,morning,Columbus,OH,America/New_York,59,drizzle,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+numb|motivated,afternoon,Bakersfield,CA,America/Los_Angeles,42,fog,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+anxious,morning,Sacramento,CA,America/Los_Angeles,69,overcast,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+curious|numb,evening,Durham,NC,America/New_York,41,snow,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+tired|numb|restless,evening,San Diego,CA,America/Los_Angeles,41,snow,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+gloomy|calm,morning,Oakland,CA,America/Los_Angeles,34,snow,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+anxious|angry,afternoon,Boston,MA,America/New_York,62,clear,espresso_smooth,Rosey oat latte,Espresso; oat milk; rose syrup; and cardamom.
+angry,morning,Santa Ana,CA,America/Los_Angeles,53,rain,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+calm|happy|stressed,evening,Arlington,TX,America/Chicago,39,snow,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+numb|angry,evening,Aurora,CO,America/Denver,84,clear,house_blend,Quiet chamomile,Chamomile tea with soft honey.
+calm|hopeful,evening,San Diego,CA,America/Los_Angeles,56,fog,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+restless|gloomy,morning,Newark,NJ,America/New_York,58,showers,cold_brew_refresh,Bright lime cold brew,Cold brew; lime; and a touch of agave.
+angry|stressed,evening,Denver,CO,America/Denver,60,showers,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+numb,afternoon,Cleveland,OH,America/New_York,78,thunderstorm,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+angry|restless,evening,St. Paul,MN,America/Chicago,44,snow,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+anxious|happy,evening,Oakland,CA,America/Los_Angeles,47,showers,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+happy|bored,morning,Denver,CO,America/Denver,76,mixed conditions,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+curious|bored|hopeful,evening,Pittsburgh,PA,America/New_York,69,overcast,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+calm,evening,Durham,NC,America/New_York,43,fog,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+gloomy,afternoon,Stockton,CA,America/Los_Angeles,59,mostly clear,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+tired|motivated,evening,Las Vegas,NV,America/Los_Angeles,63,mostly clear,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+stressed|angry|gloomy,morning,Arlington,TX,America/Chicago,52,drizzle,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+gloomy,evening,Jacksonville,FL,America/New_York,43,snow,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+bored|hopeful,morning,Austin,TX,America/Chicago,49,showers,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+calm|gloomy|restless,afternoon,Nashville,TN,America/Chicago,65,mostly clear,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+bored,evening,Oakland,CA,America/Los_Angeles,57,overcast,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+stressed|calm,afternoon,Miami,FL,America/New_York,51,overcast,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+gloomy|anxious,evening,Dallas,TX,America/Chicago,40,snow,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+gloomy,evening,Lincoln,NE,America/Chicago,73,mixed conditions,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+gloomy|tired,afternoon,Nashville,TN,America/Chicago,65,overcast,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+anxious,afternoon,Phoenix,AZ,America/Phoenix,63,showers,espresso_smooth,Rosey oat latte,Espresso; oat milk; rose syrup; and cardamom.
+restless|curious,evening,Memphis,TN,America/Chicago,57,showers,cacao_comfort,Peppermint mocha,Espresso; cocoa; peppermint; and steamed milk.
+anxious,evening,Anaheim,CA,America/Los_Angeles,57,rain,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+bored|hopeful|stressed,afternoon,Sacramento,CA,America/Los_Angeles,57,rain,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+motivated|happy|restless,afternoon,Greensboro,NC,America/New_York,73,mixed conditions,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+numb|calm|gloomy,afternoon,Bakersfield,CA,America/Los_Angeles,67,clear,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+gloomy,afternoon,Boston,MA,America/New_York,63,mostly clear,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+happy|motivated|stressed,afternoon,Mesa,AZ,America/Phoenix,39,snow,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+bored|tired,afternoon,Anaheim,CA,America/Los_Angeles,33,snow,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+stressed|hopeful|angry,morning,Colorado Springs,CO,America/Denver,60,thunderstorm,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+calm|sad|gloomy,morning,Toledo,OH,America/New_York,71,thunderstorm,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+gloomy|angry|happy,morning,El Paso,TX,America/Denver,48,fog,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+lonely|gloomy|stressed,morning,Mesa,AZ,America/Phoenix,48,showers,house_blend,Vanilla oat cappuccino,Espresso; oat milk foam; and vanilla bean.
+angry|restless,afternoon,Phoenix,AZ,America/Phoenix,78,clear,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+anxious|calm|hopeful,morning,Lincoln,NE,America/Chicago,46,fog,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+angry|curious|motivated,afternoon,Nashville,TN,America/Chicago,61,showers,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+lonely|hopeful|calm,afternoon,Boston,MA,America/New_York,84,clear,espresso_smooth,Honey almond latte,Espresso; almond milk; and soft honey.
+angry|anxious,evening,Miami,FL,America/New_York,64,mixed conditions,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+gloomy,evening,Anaheim,CA,America/Los_Angeles,81,clear,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+anxious|sad|stressed,morning,Kansas City,MO,America/Chicago,64,rain,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+angry|curious|numb,afternoon,Arlington,TX,America/Chicago,61,clear,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+gloomy,afternoon,San Antonio,TX,America/Chicago,83,clear,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+angry|motivated,afternoon,Mesa,AZ,America/Phoenix,68,thunderstorm,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+angry,morning,St. Paul,MN,America/Chicago,37,snow,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+restless,morning,Lincoln,NE,America/Chicago,51,mostly clear,cold_brew_refresh,Bright lime cold brew,Cold brew; lime; and a touch of agave.
+angry|hopeful|anxious,morning,Chicago,IL,America/Chicago,82,mixed conditions,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+angry,afternoon,Raleigh,NC,America/New_York,69,overcast,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+lonely|restless,morning,Irvine,CA,America/Los_Angeles,60,overcast,house_blend,Vanilla oat cappuccino,Espresso; oat milk foam; and vanilla bean.
+curious|sad|motivated,evening,Detroit,MI,America/Detroit,51,fog,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+sad|angry|anxious,afternoon,Lincoln,NE,America/Chicago,48,drizzle,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+gloomy,evening,Mesa,AZ,America/Phoenix,53,drizzle,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+sad|anxious|stressed,afternoon,Oakland,CA,America/Los_Angeles,60,clear,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+calm|curious|bored,afternoon,Mesa,AZ,America/Phoenix,63,thunderstorm,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+gloomy|sad|curious,afternoon,Fort Worth,TX,America/Chicago,48,drizzle,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+angry,morning,Phoenix,AZ,America/Phoenix,50,overcast,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+lonely|angry,morning,Lexington,KY,America/New_York,56,fog,house_blend,Vanilla oat cappuccino,Espresso; oat milk foam; and vanilla bean.
+anxious|motivated|calm,evening,Oakland,CA,America/Los_Angeles,53,showers,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+tired|hopeful,afternoon,Fresno,CA,America/Los_Angeles,51,fog,tea_floral,Maple chai blanket,Black tea; chai spice; maple; and vanilla cream.
+calm|happy,afternoon,St. Paul,MN,America/Chicago,69,clear,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+angry,evening,Philadelphia,PA,America/New_York,52,rain,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+bored|hopeful|calm,afternoon,Minneapolis,MN,America/Chicago,49,fog,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+gloomy,afternoon,Anaheim,CA,America/Los_Angeles,83,clear,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+angry|anxious|gloomy,afternoon,Austin,TX,America/Chicago,78,thunderstorm,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+happy,afternoon,Chicago,IL,America/Chicago,61,mixed conditions,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+angry|hopeful,morning,Plano,TX,America/Chicago,61,showers,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+bored|stressed|curious,afternoon,Atlanta,GA,America/New_York,53,drizzle,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+angry|stressed|motivated,morning,El Paso,TX,America/Denver,66,thunderstorm,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+sad|anxious,morning,Oakland,CA,America/Los_Angeles,84,mixed conditions,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+numb|tired,afternoon,Plano,TX,America/Chicago,63,rain,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+sad|stressed|bored,afternoon,San Antonio,TX,America/Chicago,58,overcast,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+restless|angry,morning,Cleveland,OH,America/New_York,50,mostly clear,cold_brew_refresh,Bright lime cold brew,Cold brew; lime; and a touch of agave.
+bored|motivated,evening,Chicago,IL,America/Chicago,71,thunderstorm,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+tired,morning,Denver,CO,America/Denver,79,thunderstorm,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+happy|gloomy|angry,afternoon,Houston,TX,America/Chicago,72,thunderstorm,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+gloomy|angry|calm,morning,Sacramento,CA,America/Los_Angeles,61,showers,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+motivated|hopeful,afternoon,Mesa,AZ,America/Phoenix,74,thunderstorm,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+gloomy,afternoon,Santa Ana,CA,America/Los_Angeles,66,mostly clear,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+tired|anxious|angry,evening,New York,NY,America/New_York,63,showers,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+lonely|curious,evening,Lexington,KY,America/New_York,30,snow,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+anxious,evening,Pittsburgh,PA,America/New_York,59,showers,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+calm|hopeful|happy,evening,El Paso,TX,America/Denver,57,showers,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+anxious|lonely|bored,morning,St. Paul,MN,America/Chicago,44,drizzle,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+sad,morning,Philadelphia,PA,America/New_York,54,drizzle,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+angry|anxious|lonely,afternoon,Fort Wayne,IN,America/Indiana/Indianapolis,63,clear,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+calm|stressed|bored,morning,Chicago,IL,America/Chicago,59,overcast,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+curious|hopeful,evening,Raleigh,NC,America/New_York,81,mixed conditions,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+gloomy|bored,evening,Raleigh,NC,America/New_York,63,mostly clear,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+lonely|happy,afternoon,Orlando,FL,America/New_York,72,thunderstorm,espresso_smooth,Honey almond latte,Espresso; almond milk; and soft honey.
+curious,morning,Riverside,CA,America/Los_Angeles,40,fog,house_blend,Cardamom cortado,Espresso; milk; and cardamom.
+curious|restless,evening,Bakersfield,CA,America/Los_Angeles,74,mixed conditions,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+restless|hopeful,afternoon,Minneapolis,MN,America/Chicago,44,drizzle,espresso_bold,Minted espresso shaker,Espresso; mint; and lightly sweetened milk.
+numb|calm,afternoon,Chula Vista,CA,America/Los_Angeles,75,thunderstorm,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+tired|motivated|numb,afternoon,Chula Vista,CA,America/Los_Angeles,67,thunderstorm,tea_floral,Maple chai blanket,Black tea; chai spice; maple; and vanilla cream.
+angry,evening,Minneapolis,MN,America/Chicago,64,clear,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+numb,morning,Las Vegas,NV,America/Los_Angeles,37,snow,espresso_smooth,Warm vanilla latte,Espresso; vanilla; and steamed milk.
+tired|lonely,evening,Corpus Christi,TX,America/Chicago,60,clear,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+angry|happy,evening,Washington,DC,America/New_York,53,fog,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+bored|sad,afternoon,Tampa,FL,America/New_York,69,clear,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+angry|bored,afternoon,Fort Worth,TX,America/Chicago,59,showers,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+angry|lonely|numb,evening,Portland,OR,America/Los_Angeles,55,rain,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+angry|tired,morning,Fort Worth,TX,America/Chicago,49,rain,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+happy|gloomy,morning,Columbus,OH,America/New_York,66,thunderstorm,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+sad,evening,Albuquerque,NM,America/Denver,62,rain,house_blend,Vanilla chamomile,Chamomile tea; vanilla bean; and steamed milk.
+hopeful|angry|sad,evening,Seattle,WA,America/Los_Angeles,63,thunderstorm,espresso_smooth,Lavender honey latte,Espresso; lavender; and honey.
+tired|motivated|calm,evening,Minneapolis,MN,America/Chicago,31,snow,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+lonely|stressed|curious,afternoon,Indianapolis,IN,America/Indiana/Indianapolis,37,snow,espresso_smooth,Honey almond latte,Espresso; almond milk; and soft honey.
+anxious,morning,San Jose,CA,America/Los_Angeles,51,showers,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+happy|gloomy|motivated,evening,Santa Ana,CA,America/Los_Angeles,78,thunderstorm,matcha_creamy,Golden matcha cloud,Matcha; oat milk; turmeric; and a salted honey cap.
+calm,afternoon,Las Vegas,NV,America/Los_Angeles,42,drizzle,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+bored,evening,Lexington,KY,America/New_York,56,mostly clear,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+hopeful|stressed,morning,Denver,CO,America/Denver,69,mixed conditions,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+angry,morning,Milwaukee,WI,America/Chicago,61,rain,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+gloomy,evening,Nashville,TN,America/Chicago,34,snow,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+lonely|hopeful|happy,evening,Oakland,CA,America/Los_Angeles,67,mixed conditions,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+sad|stressed,afternoon,Pittsburgh,PA,America/New_York,64,clear,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+bored|happy,evening,Columbus,OH,America/New_York,59,mixed conditions,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+bored,evening,Houston,TX,America/Chicago,40,fog,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+calm|angry,evening,Lincoln,NE,America/Chicago,64,showers,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+angry,evening,Orlando,FL,America/New_York,57,fog,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+anxious,afternoon,Albuquerque,NM,America/Denver,73,clear,espresso_smooth,Rosey oat latte,Espresso; oat milk; rose syrup; and cardamom.
+angry|gloomy|curious,afternoon,Philadelphia,PA,America/New_York,61,mostly clear,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+motivated|numb|curious,evening,Bakersfield,CA,America/Los_Angeles,33,snow,tea_floral,Cascara tea,Coffee cherry tea; citrus; and honey.
+angry|gloomy|restless,evening,Boston,MA,America/New_York,46,showers,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+bored|anxious|motivated,morning,San Francisco,CA,America/Los_Angeles,60,showers,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+angry|anxious,morning,Irvine,CA,America/Los_Angeles,45,rain,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+calm,afternoon,Kansas City,MO,America/Chicago,60,overcast,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+gloomy,evening,Philadelphia,PA,America/New_York,76,thunderstorm,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+restless|hopeful,evening,Baltimore,MD,America/New_York,55,rain,cacao_comfort,Peppermint mocha,Espresso; cocoa; peppermint; and steamed milk.
+angry,evening,Atlanta,GA,America/New_York,69,overcast,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+curious|calm,afternoon,Mesa,AZ,America/Phoenix,62,overcast,cold_brew_refresh,Yuzu cold brew,Cold brew; yuzu; and sparkling water.
+motivated|stressed,morning,Milwaukee,WI,America/Chicago,60,clear,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+sad|lonely,evening,Washington,DC,America/New_York,34,snow,house_blend,Vanilla chamomile,Chamomile tea; vanilla bean; and steamed milk.
+hopeful|curious,morning,Wichita,KS,America/Chicago,62,thunderstorm,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+restless|calm|stressed,afternoon,Austin,TX,America/Chicago,75,mixed conditions,espresso_bold,Minted espresso shaker,Espresso; mint; and lightly sweetened milk.
+tired|stressed|gloomy,afternoon,Columbus,OH,America/New_York,49,drizzle,tea_floral,Maple chai blanket,Black tea; chai spice; maple; and vanilla cream.
+calm|angry|happy,evening,Greensboro,NC,America/New_York,40,fog,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+stressed,afternoon,Aurora,CO,America/Denver,57,mostly clear,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+angry|tired,morning,Los Angeles,CA,America/Los_Angeles,71,clear,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+angry|motivated|restless,morning,Oklahoma City,OK,America/Chicago,72,thunderstorm,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+curious,evening,Atlanta,GA,America/New_York,61,clear,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+curious,morning,San Diego,CA,America/Los_Angeles,64,mostly clear,house_blend,Cardamom cortado,Espresso; milk; and cardamom.
+stressed|motivated|calm,evening,Baltimore,MD,America/New_York,54,showers,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+calm|bored|lonely,afternoon,Corpus Christi,TX,America/Chicago,61,rain,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+angry|happy|stressed,evening,San Francisco,CA,America/Los_Angeles,45,rain,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+angry|anxious,afternoon,Mesa,AZ,America/Phoenix,57,drizzle,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+angry|bored|numb,evening,St. Louis,MO,America/Chicago,57,drizzle,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+happy|sad|bored,evening,New Orleans,LA,America/Chicago,45,rain,matcha_creamy,Golden matcha cloud,Matcha; oat milk; turmeric; and a salted honey cap.
+lonely|bored|restless,evening,Fresno,CA,America/Los_Angeles,63,rain,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+bored|stressed|anxious,afternoon,Oklahoma City,OK,America/Chicago,69,thunderstorm,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+stressed,morning,Philadelphia,PA,America/New_York,62,mostly clear,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+tired|motivated|lonely,evening,Tulsa,OK,America/Chicago,72,thunderstorm,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+gloomy|sad|anxious,evening,New York,NY,America/New_York,60,mixed conditions,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+calm,morning,Cincinnati,OH,America/New_York,70,thunderstorm,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+anxious|hopeful|gloomy,evening,Minneapolis,MN,America/Chicago,40,fog,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+hopeful|anxious|calm,evening,Mesa,AZ,America/Phoenix,41,fog,espresso_smooth,Lavender honey latte,Espresso; lavender; and honey.
+restless|angry,evening,Charlotte,NC,America/New_York,59,showers,cacao_comfort,Peppermint mocha,Espresso; cocoa; peppermint; and steamed milk.
+anxious,afternoon,Cincinnati,OH,America/New_York,54,drizzle,espresso_smooth,Rosey oat latte,Espresso; oat milk; rose syrup; and cardamom.
+calm,morning,Chula Vista,CA,America/Los_Angeles,63,overcast,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+anxious|calm|angry,afternoon,Tampa,FL,America/New_York,42,fog,espresso_smooth,Rosey oat latte,Espresso; oat milk; rose syrup; and cardamom.
+angry,morning,Houston,TX,America/Chicago,30,snow,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+sad|happy|lonely,evening,Omaha,NE,America/Chicago,64,showers,house_blend,Vanilla chamomile,Chamomile tea; vanilla bean; and steamed milk.
+happy,afternoon,Atlanta,GA,America/New_York,53,fog,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+sad|curious|angry,morning,Las Vegas,NV,America/Los_Angeles,50,mostly clear,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+angry|curious|anxious,evening,Stockton,CA,America/Los_Angeles,51,showers,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+curious,evening,Jacksonville,FL,America/New_York,45,showers,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+angry|calm|hopeful,morning,Denver,CO,America/Denver,69,overcast,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+happy,afternoon,San Antonio,TX,America/Chicago,59,mostly clear,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+sad|restless,morning,Fort Worth,TX,America/Chicago,62,mostly clear,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+restless|motivated|lonely,evening,Las Vegas,NV,America/Los_Angeles,66,clear,cacao_comfort,Peppermint mocha,Espresso; cocoa; peppermint; and steamed milk.
+sad,afternoon,New Orleans,LA,America/Chicago,41,fog,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+stressed|sad|gloomy,afternoon,St. Paul,MN,America/Chicago,47,drizzle,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+bored|anxious|angry,morning,Raleigh,NC,America/New_York,30,snow,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+bored|calm|curious,afternoon,Corpus Christi,TX,America/Chicago,59,mostly clear,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+anxious|calm,morning,Lexington,KY,America/New_York,40,drizzle,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+angry|anxious,morning,Irvine,CA,America/Los_Angeles,51,showers,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+tired|anxious|curious,evening,Albuquerque,NM,America/Denver,79,thunderstorm,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+bored|gloomy|sad,afternoon,Fort Wayne,IN,America/Indiana/Indianapolis,63,overcast,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+restless,morning,Colorado Springs,CO,America/Denver,78,mixed conditions,cold_brew_refresh,Bright lime cold brew,Cold brew; lime; and a touch of agave.
+hopeful|curious|gloomy,afternoon,Orlando,FL,America/New_York,68,mostly clear,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+lonely|stressed|curious,afternoon,St. Louis,MO,America/Chicago,59,mixed conditions,espresso_smooth,Honey almond latte,Espresso; almond milk; and soft honey.
+happy|gloomy,morning,Colorado Springs,CO,America/Denver,56,mostly clear,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+hopeful|happy|motivated,afternoon,St. Louis,MO,America/Chicago,75,thunderstorm,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+hopeful,morning,Oakland,CA,America/Los_Angeles,45,rain,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+gloomy|lonely|sad,evening,Tulsa,OK,America/Chicago,33,snow,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+hopeful|angry|sad,afternoon,Raleigh,NC,America/New_York,54,overcast,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+gloomy|bored|hopeful,afternoon,Omaha,NE,America/Chicago,64,mixed conditions,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+lonely|angry,evening,Houston,TX,America/Chicago,58,clear,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+tired|curious|angry,afternoon,Durham,NC,America/New_York,57,fog,tea_floral,Maple chai blanket,Black tea; chai spice; maple; and vanilla cream.
+curious,afternoon,Philadelphia,PA,America/New_York,74,clear,cold_brew_refresh,Yuzu cold brew,Cold brew; yuzu; and sparkling water.
+motivated|angry|numb,afternoon,Minneapolis,MN,America/Chicago,58,mixed conditions,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+numb|stressed,morning,Irvine,CA,America/Los_Angeles,62,thunderstorm,espresso_smooth,Warm vanilla latte,Espresso; vanilla; and steamed milk.
+numb|stressed,morning,Lincoln,NE,America/Chicago,54,drizzle,espresso_smooth,Warm vanilla latte,Espresso; vanilla; and steamed milk.
+angry|calm,evening,Anchorage,AK,America/Anchorage,57,mostly clear,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+sad,evening,Miami,FL,America/New_York,45,rain,house_blend,Vanilla chamomile,Chamomile tea; vanilla bean; and steamed milk.
+lonely|angry|restless,evening,Anchorage,AK,America/Anchorage,44,snow,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+gloomy|anxious,morning,Baltimore,MD,America/New_York,67,mixed conditions,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+angry,afternoon,Memphis,TN,America/Chicago,75,clear,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+tired|restless,morning,Omaha,NE,America/Chicago,45,drizzle,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+lonely,evening,Los Angeles,CA,America/Los_Angeles,62,rain,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+sad|stressed|numb,morning,Nashville,TN,America/Chicago,57,fog,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+gloomy|curious,afternoon,Cincinnati,OH,America/New_York,47,showers,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+stressed|gloomy|tired,morning,El Paso,TX,America/Denver,62,rain,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+angry,evening,Minneapolis,MN,America/Chicago,41,drizzle,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+bored,morning,San Francisco,CA,America/Los_Angeles,62,overcast,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+sad|happy|restless,morning,Philadelphia,PA,America/New_York,56,showers,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+angry|anxious,evening,Austin,TX,America/Chicago,50,showers,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+anxious,evening,Denver,CO,America/Denver,54,rain,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+anxious|gloomy,afternoon,Memphis,TN,America/Chicago,42,snow,espresso_smooth,Rosey oat latte,Espresso; oat milk; rose syrup; and cardamom.
+angry,evening,Los Angeles,CA,America/Los_Angeles,53,showers,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+numb,morning,Fort Wayne,IN,America/Indiana/Indianapolis,49,drizzle,espresso_smooth,Warm vanilla latte,Espresso; vanilla; and steamed milk.
+numb|hopeful|motivated,morning,Honolulu,HI,Pacific/Honolulu,70,thunderstorm,espresso_smooth,Warm vanilla latte,Espresso; vanilla; and steamed milk.
+tired,evening,Sacramento,CA,America/Los_Angeles,67,mostly clear,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+motivated|numb,morning,El Paso,TX,America/Denver,33,snow,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+lonely|anxious|stressed,evening,Greensboro,NC,America/New_York,57,mostly clear,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+calm|stressed|sad,morning,Cleveland,OH,America/New_York,56,mostly clear,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+calm|angry|motivated,morning,Seattle,WA,America/Los_Angeles,63,clear,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+stressed,evening,Bakersfield,CA,America/Los_Angeles,51,rain,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+stressed|curious,afternoon,El Paso,TX,America/Denver,70,thunderstorm,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+happy|hopeful,morning,Raleigh,NC,America/New_York,62,clear,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+stressed,morning,St. Paul,MN,America/Chicago,57,fog,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+hopeful,morning,Cleveland,OH,America/New_York,73,thunderstorm,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+angry,morning,Minneapolis,MN,America/Chicago,63,mostly clear,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+happy|tired,morning,San Jose,CA,America/Los_Angeles,48,drizzle,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+gloomy|bored,evening,Stockton,CA,America/Los_Angeles,50,overcast,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+gloomy|stressed,morning,Aurora,CO,America/Denver,61,mixed conditions,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+stressed|anxious,morning,Phoenix,AZ,America/Phoenix,34,snow,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+numb|angry,morning,Miami,FL,America/New_York,63,showers,espresso_smooth,Warm vanilla latte,Espresso; vanilla; and steamed milk.
+stressed|hopeful|sad,evening,Nashville,TN,America/Chicago,42,snow,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+motivated|calm,morning,Bakersfield,CA,America/Los_Angeles,54,rain,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+angry|lonely|bored,evening,Stockton,CA,America/Los_Angeles,56,drizzle,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+anxious,morning,Cleveland,OH,America/New_York,61,mixed conditions,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+angry,evening,Santa Ana,CA,America/Los_Angeles,60,rain,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+angry,evening,Philadelphia,PA,America/New_York,51,rain,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+gloomy,morning,Fort Wayne,IN,America/Indiana/Indianapolis,59,mostly clear,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+hopeful|stressed,afternoon,Chula Vista,CA,America/Los_Angeles,74,thunderstorm,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+curious|gloomy,afternoon,Orlando,FL,America/New_York,81,clear,cold_brew_refresh,Yuzu cold brew,Cold brew; yuzu; and sparkling water.
+motivated|restless|tired,morning,Kansas City,MO,America/Chicago,47,drizzle,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+happy|gloomy,morning,New York,NY,America/New_York,60,showers,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+angry,morning,Fort Worth,TX,America/Chicago,59,overcast,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+calm,evening,Jacksonville,FL,America/New_York,63,overcast,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+bored,morning,Miami,FL,America/New_York,53,showers,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+angry|calm|motivated,morning,Fort Wayne,IN,America/Indiana/Indianapolis,60,overcast,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+gloomy,evening,Atlanta,GA,America/New_York,76,clear,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+lonely,evening,St. Louis,MO,America/Chicago,74,clear,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+calm,afternoon,Boston,MA,America/New_York,40,snow,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+angry,evening,Portland,OR,America/Los_Angeles,48,showers,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+angry|anxious,evening,Anchorage,AK,America/Anchorage,58,clear,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+sad|happy|motivated,afternoon,Colorado Springs,CO,America/Denver,53,drizzle,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+motivated,afternoon,Philadelphia,PA,America/New_York,62,thunderstorm,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+restless,morning,San Jose,CA,America/Los_Angeles,81,mixed conditions,cold_brew_refresh,Bright lime cold brew,Cold brew; lime; and a touch of agave.
+gloomy|calm,morning,San Diego,CA,America/Los_Angeles,49,rain,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+gloomy|motivated,morning,Fort Worth,TX,America/Chicago,58,overcast,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+motivated,morning,Santa Ana,CA,America/Los_Angeles,48,showers,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+calm|gloomy|bored,afternoon,Seattle,WA,America/Los_Angeles,50,rain,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+numb|restless,afternoon,Seattle,WA,America/Los_Angeles,47,rain,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+lonely,evening,Lincoln,NE,America/Chicago,44,fog,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+curious|tired,evening,San Antonio,TX,America/Chicago,68,thunderstorm,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+curious,morning,Jacksonville,FL,America/New_York,57,clear,house_blend,Cardamom cortado,Espresso; milk; and cardamom.
+curious|calm,afternoon,Lincoln,NE,America/Chicago,70,mixed conditions,cold_brew_refresh,Yuzu cold brew,Cold brew; yuzu; and sparkling water.
+lonely|stressed|angry,evening,Jacksonville,FL,America/New_York,70,clear,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+curious|bored,morning,Durham,NC,America/New_York,60,showers,house_blend,Cardamom cortado,Espresso; milk; and cardamom.
+curious,evening,Santa Ana,CA,America/Los_Angeles,69,thunderstorm,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+tired,morning,Santa Ana,CA,America/Los_Angeles,68,thunderstorm,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+gloomy|bored|numb,morning,Orlando,FL,America/New_York,76,thunderstorm,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+angry|anxious,evening,Chula Vista,CA,America/Los_Angeles,49,rain,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+anxious|gloomy|calm,morning,Lexington,KY,America/New_York,72,thunderstorm,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+motivated,morning,Durham,NC,America/New_York,80,mixed conditions,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+happy,afternoon,Durham,NC,America/New_York,64,rain,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+numb|angry|restless,evening,Durham,NC,America/New_York,51,mostly clear,house_blend,Quiet chamomile,Chamomile tea with soft honey.
+happy,afternoon,Arlington,TX,America/Chicago,43,snow,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+bored|anxious,afternoon,Omaha,NE,America/Chicago,81,mixed conditions,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+hopeful|numb|calm,morning,Fort Wayne,IN,America/Indiana/Indianapolis,76,thunderstorm,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+numb|calm,evening,San Jose,CA,America/Los_Angeles,48,rain,house_blend,Quiet chamomile,Chamomile tea with soft honey.
+happy|angry,evening,Charlotte,NC,America/New_York,65,overcast,matcha_creamy,Golden matcha cloud,Matcha; oat milk; turmeric; and a salted honey cap.
+sad|angry|tired,evening,Portland,OR,America/Los_Angeles,31,snow,house_blend,Vanilla chamomile,Chamomile tea; vanilla bean; and steamed milk.
+happy|tired|curious,morning,Cincinnati,OH,America/New_York,43,snow,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+tired,evening,Miami,FL,America/New_York,40,drizzle,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+lonely|anxious|happy,afternoon,New Orleans,LA,America/Chicago,68,overcast,espresso_smooth,Honey almond latte,Espresso; almond milk; and soft honey.
+happy|angry,evening,Philadelphia,PA,America/New_York,74,thunderstorm,matcha_creamy,Golden matcha cloud,Matcha; oat milk; turmeric; and a salted honey cap.
+stressed|hopeful|angry,afternoon,San Jose,CA,America/Los_Angeles,49,drizzle,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+bored|curious|sad,afternoon,Corpus Christi,TX,America/Chicago,56,mostly clear,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+gloomy,evening,Chula Vista,CA,America/Los_Angeles,58,overcast,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+restless|tired|motivated,evening,Omaha,NE,America/Chicago,53,drizzle,cacao_comfort,Peppermint mocha,Espresso; cocoa; peppermint; and steamed milk.
+angry,morning,Portland,OR,America/Los_Angeles,45,drizzle,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+tired,morning,Newark,NJ,America/New_York,54,showers,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+angry|curious,afternoon,Philadelphia,PA,America/New_York,44,fog,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+sad|calm,evening,Atlanta,GA,America/New_York,63,showers,house_blend,Vanilla chamomile,Chamomile tea; vanilla bean; and steamed milk.
+happy|tired,afternoon,Greensboro,NC,America/New_York,60,thunderstorm,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+hopeful|stressed|angry,evening,Portland,OR,America/Los_Angeles,32,snow,espresso_smooth,Lavender honey latte,Espresso; lavender; and honey.
+tired|curious,evening,Indianapolis,IN,America/Indiana/Indianapolis,32,snow,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+stressed|sad,morning,Oakland,CA,America/Los_Angeles,58,mostly clear,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+happy,morning,Phoenix,AZ,America/Phoenix,59,rain,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+calm|bored|anxious,morning,San Jose,CA,America/Los_Angeles,44,snow,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+restless|sad|bored,morning,Irvine,CA,America/Los_Angeles,56,overcast,cold_brew_refresh,Bright lime cold brew,Cold brew; lime; and a touch of agave.
+tired|lonely,morning,Washington,DC,America/New_York,53,rain,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+tired|curious,morning,Oklahoma City,OK,America/Chicago,71,mixed conditions,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+lonely|restless,evening,Chicago,IL,America/Chicago,68,mostly clear,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+angry|gloomy|numb,evening,Pittsburgh,PA,America/New_York,42,snow,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+motivated,afternoon,Tulsa,OK,America/Chicago,50,drizzle,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+stressed,morning,Oklahoma City,OK,America/Chicago,55,fog,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+hopeful|restless|calm,morning,Toledo,OH,America/New_York,42,fog,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+restless|bored,afternoon,Fort Worth,TX,America/Chicago,57,rain,espresso_bold,Minted espresso shaker,Espresso; mint; and lightly sweetened milk.
+angry|restless,afternoon,El Paso,TX,America/Denver,61,showers,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+motivated|angry|sad,afternoon,Greensboro,NC,America/New_York,32,snow,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+anxious|gloomy,evening,Colorado Springs,CO,America/Denver,49,fog,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+anxious|hopeful,afternoon,San Jose,CA,America/Los_Angeles,63,mostly clear,espresso_smooth,Rosey oat latte,Espresso; oat milk; rose syrup; and cardamom.
+bored,afternoon,St. Louis,MO,America/Chicago,51,showers,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+calm,afternoon,Boston,MA,America/New_York,59,mostly clear,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+happy|curious|angry,afternoon,Washington,DC,America/New_York,56,overcast,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+angry|hopeful|gloomy,morning,Durham,NC,America/New_York,44,snow,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+angry|anxious|calm,evening,Fort Wayne,IN,America/Indiana/Indianapolis,59,fog,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+curious|hopeful|tired,afternoon,Durham,NC,America/New_York,71,clear,cold_brew_refresh,Yuzu cold brew,Cold brew; yuzu; and sparkling water.
+angry|stressed|motivated,afternoon,Honolulu,HI,Pacific/Honolulu,59,mixed conditions,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+motivated,morning,Santa Ana,CA,America/Los_Angeles,50,overcast,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+tired|motivated,morning,Pittsburgh,PA,America/New_York,32,snow,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+numb|gloomy|bored,evening,Tucson,AZ,America/Phoenix,68,clear,house_blend,Quiet chamomile,Chamomile tea with soft honey.
+sad|happy|tired,morning,Columbus,OH,America/New_York,46,drizzle,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+gloomy|lonely|numb,afternoon,Anchorage,AK,America/Anchorage,45,fog,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+angry|calm|stressed,evening,Charlotte,NC,America/New_York,60,showers,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+angry|gloomy|restless,morning,San Francisco,CA,America/Los_Angeles,77,clear,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+bored,evening,Baltimore,MD,America/New_York,55,rain,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+lonely|anxious,afternoon,Anchorage,AK,America/Anchorage,61,showers,espresso_smooth,Honey almond latte,Espresso; almond milk; and soft honey.
+motivated|angry,afternoon,St. Paul,MN,America/Chicago,70,clear,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+tired|sad|hopeful,evening,Lexington,KY,America/New_York,60,showers,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+calm|stressed,morning,Chicago,IL,America/Chicago,48,fog,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+lonely|hopeful|angry,evening,Plano,TX,America/Chicago,65,thunderstorm,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+calm|bored|motivated,evening,Tampa,FL,America/New_York,40,fog,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+happy|hopeful|angry,evening,Detroit,MI,America/Detroit,60,clear,matcha_creamy,Golden matcha cloud,Matcha; oat milk; turmeric; and a salted honey cap.
+gloomy|anxious,afternoon,Orlando,FL,America/New_York,84,clear,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+hopeful|gloomy|angry,morning,Fort Worth,TX,America/Chicago,61,rain,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+bored|restless,evening,Dallas,TX,America/Chicago,79,mixed conditions,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+calm,morning,Tampa,FL,America/New_York,50,showers,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+curious,evening,St. Louis,MO,America/Chicago,57,rain,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+angry|anxious|stressed,morning,Tulsa,OK,America/Chicago,60,showers,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+tired|angry|hopeful,afternoon,St. Louis,MO,America/Chicago,63,thunderstorm,tea_floral,Maple chai blanket,Black tea; chai spice; maple; and vanilla cream.
+restless,afternoon,Oakland,CA,America/Los_Angeles,57,mixed conditions,espresso_bold,Minted espresso shaker,Espresso; mint; and lightly sweetened milk.
+sad,morning,New Orleans,LA,America/Chicago,65,mostly clear,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+hopeful|sad|tired,evening,Cincinnati,OH,America/New_York,61,mostly clear,espresso_smooth,Lavender honey latte,Espresso; lavender; and honey.
+sad|gloomy|numb,morning,Lexington,KY,America/New_York,60,rain,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+hopeful|bored|gloomy,evening,San Jose,CA,America/Los_Angeles,62,mostly clear,espresso_smooth,Lavender honey latte,Espresso; lavender; and honey.
+motivated,evening,Toledo,OH,America/New_York,46,showers,tea_floral,Cascara tea,Coffee cherry tea; citrus; and honey.
+calm|numb,afternoon,New York,NY,America/New_York,68,clear,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+bored,evening,Las Vegas,NV,America/Los_Angeles,63,mostly clear,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+gloomy|hopeful,morning,Seattle,WA,America/Los_Angeles,59,overcast,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+angry|anxious|hopeful,evening,Aurora,CO,America/Denver,62,mixed conditions,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+angry|tired,evening,Memphis,TN,America/Chicago,41,drizzle,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+curious,afternoon,Columbus,OH,America/New_York,59,mixed conditions,cold_brew_refresh,Yuzu cold brew,Cold brew; yuzu; and sparkling water.
+numb,afternoon,Oklahoma City,OK,America/Chicago,58,drizzle,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+stressed,evening,Newark,NJ,America/New_York,65,mixed conditions,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+stressed|angry,evening,Dallas,TX,America/Chicago,50,drizzle,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+sad,afternoon,San Francisco,CA,America/Los_Angeles,78,mixed conditions,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+angry|happy|calm,afternoon,Pittsburgh,PA,America/New_York,53,showers,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+gloomy,morning,Fort Wayne,IN,America/Indiana/Indianapolis,59,drizzle,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+calm|angry|motivated,morning,Tampa,FL,America/New_York,49,rain,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+restless|curious|hopeful,morning,Wichita,KS,America/Chicago,50,drizzle,cold_brew_refresh,Bright lime cold brew,Cold brew; lime; and a touch of agave.
+lonely,evening,Columbus,OH,America/New_York,51,showers,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+hopeful|curious|motivated,morning,New Orleans,LA,America/Chicago,35,snow,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+happy|restless,afternoon,Philadelphia,PA,America/New_York,54,drizzle,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+angry|sad|tired,evening,Austin,TX,America/Chicago,59,mixed conditions,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+happy,morning,Columbus,OH,America/New_York,61,clear,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+bored|hopeful,morning,Riverside,CA,America/Los_Angeles,59,mostly clear,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+restless|angry,evening,Fort Worth,TX,America/Chicago,53,mostly clear,cacao_comfort,Peppermint mocha,Espresso; cocoa; peppermint; and steamed milk.
+sad,evening,Los Angeles,CA,America/Los_Angeles,51,overcast,house_blend,Vanilla chamomile,Chamomile tea; vanilla bean; and steamed milk.
+numb|curious,afternoon,Lexington,KY,America/New_York,73,mixed conditions,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+lonely|restless,afternoon,Pittsburgh,PA,America/New_York,70,thunderstorm,espresso_smooth,Honey almond latte,Espresso; almond milk; and soft honey.
+hopeful|motivated,afternoon,Fort Worth,TX,America/Chicago,59,drizzle,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+restless|lonely,morning,Stockton,CA,America/Los_Angeles,57,fog,cold_brew_refresh,Bright lime cold brew,Cold brew; lime; and a touch of agave.
+gloomy|calm|restless,evening,Arlington,TX,America/Chicago,57,overcast,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+restless|curious,evening,Washington,DC,America/New_York,56,overcast,cacao_comfort,Peppermint mocha,Espresso; cocoa; peppermint; and steamed milk.
+curious|angry|happy,morning,Memphis,TN,America/Chicago,56,rain,house_blend,Cardamom cortado,Espresso; milk; and cardamom.
+gloomy|curious,afternoon,Columbus,OH,America/New_York,80,clear,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+gloomy|lonely,morning,Las Vegas,NV,America/Los_Angeles,41,snow,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+anxious|angry,morning,Philadelphia,PA,America/New_York,69,clear,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+calm,afternoon,Albuquerque,NM,America/Denver,57,showers,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+angry|lonely,evening,Honolulu,HI,Pacific/Honolulu,58,mixed conditions,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+hopeful|numb,evening,Las Vegas,NV,America/Los_Angeles,50,fog,espresso_smooth,Lavender honey latte,Espresso; lavender; and honey.
+calm,morning,Los Angeles,CA,America/Los_Angeles,57,rain,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+happy,afternoon,Orlando,FL,America/New_York,30,snow,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+curious|happy,evening,Kansas City,MO,America/Chicago,53,drizzle,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+hopeful|numb,afternoon,Bakersfield,CA,America/Los_Angeles,54,showers,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+curious,evening,St. Paul,MN,America/Chicago,74,thunderstorm,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+numb,morning,Tucson,AZ,America/Phoenix,65,thunderstorm,espresso_smooth,Warm vanilla latte,Espresso; vanilla; and steamed milk.
+tired|lonely,morning,Orlando,FL,America/New_York,42,drizzle,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+lonely|numb|curious,afternoon,Aurora,CO,America/Denver,44,fog,espresso_smooth,Honey almond latte,Espresso; almond milk; and soft honey.
+calm,evening,Las Vegas,NV,America/Los_Angeles,63,mostly clear,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+motivated|gloomy,morning,Nashville,TN,America/Chicago,59,drizzle,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+numb|angry|restless,morning,San Diego,CA,America/Los_Angeles,67,overcast,espresso_smooth,Warm vanilla latte,Espresso; vanilla; and steamed milk.
+angry|restless|anxious,afternoon,Toledo,OH,America/New_York,47,showers,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+calm|hopeful,morning,St. Paul,MN,America/Chicago,83,mixed conditions,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+tired|curious|numb,evening,Washington,DC,America/New_York,48,rain,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+happy|angry|numb,evening,Louisville,KY,America/New_York,40,drizzle,matcha_creamy,Golden matcha cloud,Matcha; oat milk; turmeric; and a salted honey cap.
+angry,evening,San Diego,CA,America/Los_Angeles,66,overcast,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+anxious|restless,morning,Boston,MA,America/New_York,71,thunderstorm,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+stressed,morning,Washington,DC,America/New_York,37,snow,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+calm|hopeful|numb,afternoon,Louisville,KY,America/New_York,56,mostly clear,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+angry,afternoon,Cleveland,OH,America/New_York,45,drizzle,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+angry|bored,morning,Memphis,TN,America/Chicago,50,mostly clear,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+motivated|lonely|hopeful,evening,Plano,TX,America/Chicago,57,fog,tea_floral,Cascara tea,Coffee cherry tea; citrus; and honey.
+angry|anxious|numb,afternoon,Fort Wayne,IN,America/Indiana/Indianapolis,51,fog,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+stressed,afternoon,Lincoln,NE,America/Chicago,39,snow,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+stressed|calm,afternoon,Louisville,KY,America/New_York,49,fog,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+restless|angry,morning,Washington,DC,America/New_York,78,clear,cold_brew_refresh,Bright lime cold brew,Cold brew; lime; and a touch of agave.
+motivated,afternoon,Arlington,TX,America/Chicago,57,rain,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+angry|stressed,afternoon,Tampa,FL,America/New_York,58,drizzle,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+stressed,afternoon,Jacksonville,FL,America/New_York,42,fog,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+gloomy|tired,afternoon,Miami,FL,America/New_York,56,fog,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+motivated|calm,evening,Newark,NJ,America/New_York,64,rain,tea_floral,Cascara tea,Coffee cherry tea; citrus; and honey.
+lonely,evening,Lincoln,NE,America/Chicago,72,thunderstorm,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+happy|sad|lonely,evening,Newark,NJ,America/New_York,67,mixed conditions,matcha_creamy,Golden matcha cloud,Matcha; oat milk; turmeric; and a salted honey cap.
+stressed,afternoon,Memphis,TN,America/Chicago,53,fog,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+tired|gloomy|curious,evening,Atlanta,GA,America/New_York,31,snow,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+numb|stressed|gloomy,afternoon,Santa Ana,CA,America/Los_Angeles,58,drizzle,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+stressed|numb|curious,afternoon,St. Louis,MO,America/Chicago,67,overcast,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+hopeful,morning,Louisville,KY,America/New_York,60,thunderstorm,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+happy|calm|restless,afternoon,Washington,DC,America/New_York,69,thunderstorm,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+lonely|anxious,evening,Omaha,NE,America/Chicago,47,fog,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+angry|hopeful,evening,New York,NY,America/New_York,68,thunderstorm,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+angry,afternoon,Los Angeles,CA,America/Los_Angeles,82,mixed conditions,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+hopeful|motivated,morning,Tampa,FL,America/New_York,55,rain,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+angry,morning,Fresno,CA,America/Los_Angeles,76,thunderstorm,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+sad|bored|numb,afternoon,Cincinnati,OH,America/New_York,84,clear,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+hopeful|angry|sad,morning,Aurora,CO,America/Denver,75,thunderstorm,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+anxious|angry|numb,morning,Arlington,TX,America/Chicago,58,showers,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+stressed,evening,Lincoln,NE,America/Chicago,54,showers,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+motivated,morning,Orlando,FL,America/New_York,60,mostly clear,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+tired|gloomy|sad,evening,Austin,TX,America/Chicago,50,showers,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+calm,evening,Toledo,OH,America/New_York,65,thunderstorm,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+tired,afternoon,Philadelphia,PA,America/New_York,68,mostly clear,tea_floral,Maple chai blanket,Black tea; chai spice; maple; and vanilla cream.
+bored|stressed,morning,Los Angeles,CA,America/Los_Angeles,65,mostly clear,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+motivated,evening,Santa Ana,CA,America/Los_Angeles,82,clear,tea_floral,Cascara tea,Coffee cherry tea; citrus; and honey.
+hopeful|calm|motivated,evening,Washington,DC,America/New_York,83,clear,espresso_smooth,Lavender honey latte,Espresso; lavender; and honey.
+sad|bored|anxious,afternoon,Fresno,CA,America/Los_Angeles,54,showers,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+calm|angry,afternoon,Phoenix,AZ,America/Phoenix,46,drizzle,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+numb|lonely|calm,morning,Portland,OR,America/Los_Angeles,52,showers,espresso_smooth,Warm vanilla latte,Espresso; vanilla; and steamed milk.
+anxious,morning,Seattle,WA,America/Los_Angeles,67,mixed conditions,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+gloomy|anxious|curious,evening,Greensboro,NC,America/New_York,54,fog,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+calm|bored,afternoon,Denver,CO,America/Denver,61,rain,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+bored|calm,morning,Honolulu,HI,Pacific/Honolulu,64,rain,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+happy|bored,morning,New York,NY,America/New_York,55,overcast,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+hopeful|motivated,afternoon,St. Paul,MN,America/Chicago,41,snow,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+bored|motivated,morning,Orlando,FL,America/New_York,52,showers,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+tired|bored|happy,evening,Newark,NJ,America/New_York,65,thunderstorm,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+hopeful,morning,Louisville,KY,America/New_York,79,clear,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+gloomy|sad|happy,afternoon,Wichita,KS,America/Chicago,77,clear,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+bored,evening,St. Paul,MN,America/Chicago,65,mostly clear,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+stressed,evening,Oakland,CA,America/Los_Angeles,59,rain,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+gloomy|lonely|numb,morning,Mesa,AZ,America/Phoenix,76,thunderstorm,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+hopeful|gloomy,afternoon,Milwaukee,WI,America/Chicago,70,mixed conditions,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+happy|anxious|bored,evening,Charlotte,NC,America/New_York,78,thunderstorm,matcha_creamy,Golden matcha cloud,Matcha; oat milk; turmeric; and a salted honey cap.
+calm|anxious,afternoon,Oakland,CA,America/Los_Angeles,55,mostly clear,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+stressed|hopeful|angry,morning,Jacksonville,FL,America/New_York,76,clear,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+sad|calm|gloomy,evening,Lexington,KY,America/New_York,53,overcast,house_blend,Vanilla chamomile,Chamomile tea; vanilla bean; and steamed milk.
+stressed,morning,Lincoln,NE,America/Chicago,31,snow,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+angry|anxious,morning,Toledo,OH,America/New_York,64,mixed conditions,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+curious|sad,morning,Anaheim,CA,America/Los_Angeles,62,mixed conditions,house_blend,Cardamom cortado,Espresso; milk; and cardamom.
+numb,evening,Indianapolis,IN,America/Indiana/Indianapolis,42,drizzle,house_blend,Quiet chamomile,Chamomile tea with soft honey.
+anxious|sad,evening,Oakland,CA,America/Los_Angeles,62,thunderstorm,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+stressed|hopeful|lonely,afternoon,Sacramento,CA,America/Los_Angeles,67,mixed conditions,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+hopeful|bored|anxious,morning,Bakersfield,CA,America/Los_Angeles,44,snow,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+tired,evening,Arlington,TX,America/Chicago,50,overcast,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+motivated|bored,afternoon,Plano,TX,America/Chicago,59,showers,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+calm|bored|hopeful,afternoon,Columbus,OH,America/New_York,55,rain,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+numb|happy|tired,afternoon,Dallas,TX,America/Chicago,53,drizzle,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+stressed,evening,Greensboro,NC,America/New_York,51,drizzle,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+anxious|angry,evening,Portland,OR,America/Los_Angeles,63,rain,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+curious|bored,afternoon,Memphis,TN,America/Chicago,47,rain,cold_brew_refresh,Yuzu cold brew,Cold brew; yuzu; and sparkling water.
+anxious|sad,afternoon,Washington,DC,America/New_York,44,drizzle,espresso_smooth,Rosey oat latte,Espresso; oat milk; rose syrup; and cardamom.
+hopeful|restless,afternoon,Memphis,TN,America/Chicago,41,snow,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+calm|tired|happy,afternoon,Oklahoma City,OK,America/Chicago,65,thunderstorm,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+gloomy|hopeful|angry,evening,Seattle,WA,America/Los_Angeles,53,fog,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+angry,evening,Anchorage,AK,America/Anchorage,77,mixed conditions,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+angry|bored,afternoon,San Diego,CA,America/Los_Angeles,63,clear,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+motivated|gloomy,evening,Baltimore,MD,America/New_York,71,clear,tea_floral,Cascara tea,Coffee cherry tea; citrus; and honey.
+bored,afternoon,Fresno,CA,America/Los_Angeles,50,drizzle,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+angry|anxious,morning,San Jose,CA,America/Los_Angeles,60,clear,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+hopeful|tired|stressed,morning,Boston,MA,America/New_York,64,clear,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+hopeful,morning,Baltimore,MD,America/New_York,57,overcast,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+happy,morning,Tulsa,OK,America/Chicago,50,showers,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+bored|happy|hopeful,afternoon,Dallas,TX,America/Chicago,62,showers,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+lonely,evening,Fresno,CA,America/Los_Angeles,53,showers,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+calm|motivated,evening,Las Vegas,NV,America/Los_Angeles,52,showers,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+angry,afternoon,Dallas,TX,America/Chicago,50,overcast,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+angry|anxious,afternoon,Toledo,OH,America/New_York,65,thunderstorm,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+tired|angry,morning,Aurora,CO,America/Denver,52,rain,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+anxious|tired,morning,New Orleans,LA,America/Chicago,49,showers,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+calm|motivated|numb,morning,Corpus Christi,TX,America/Chicago,60,mostly clear,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+calm|angry|tired,evening,Los Angeles,CA,America/Los_Angeles,57,drizzle,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+angry,afternoon,Colorado Springs,CO,America/Denver,70,clear,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+calm|lonely,morning,Houston,TX,America/Chicago,47,fog,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+stressed|happy,afternoon,Tucson,AZ,America/Phoenix,59,overcast,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+curious|happy|anxious,morning,Santa Ana,CA,America/Los_Angeles,82,mixed conditions,house_blend,Cardamom cortado,Espresso; milk; and cardamom.
+sad|lonely,morning,Lincoln,NE,America/Chicago,53,overcast,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+tired|gloomy|bored,evening,Louisville,KY,America/New_York,80,clear,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+angry|anxious|motivated,afternoon,Santa Ana,CA,America/Los_Angeles,61,rain,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+motivated|curious,morning,Corpus Christi,TX,America/Chicago,36,snow,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+gloomy|bored|calm,morning,Honolulu,HI,Pacific/Honolulu,60,rain,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+lonely|happy,morning,Riverside,CA,America/Los_Angeles,58,rain,house_blend,Vanilla oat cappuccino,Espresso; oat milk foam; and vanilla bean.
+angry,evening,Arlington,TX,America/Chicago,79,thunderstorm,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+hopeful|curious,afternoon,Omaha,NE,America/Chicago,64,thunderstorm,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+restless|anxious|curious,evening,Las Vegas,NV,America/Los_Angeles,51,drizzle,cacao_comfort,Peppermint mocha,Espresso; cocoa; peppermint; and steamed milk.
+curious|angry,afternoon,Los Angeles,CA,America/Los_Angeles,56,mostly clear,cold_brew_refresh,Yuzu cold brew,Cold brew; yuzu; and sparkling water.
+sad,morning,Portland,OR,America/Los_Angeles,60,clear,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+anxious,evening,Arlington,TX,America/Chicago,51,rain,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+motivated|tired,afternoon,Detroit,MI,America/Detroit,32,snow,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+curious|motivated|tired,afternoon,El Paso,TX,America/Denver,59,mostly clear,cold_brew_refresh,Yuzu cold brew,Cold brew; yuzu; and sparkling water.
+numb|calm|lonely,morning,Denver,CO,America/Denver,54,showers,espresso_smooth,Warm vanilla latte,Espresso; vanilla; and steamed milk.
+sad|angry,afternoon,Stockton,CA,America/Los_Angeles,46,drizzle,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+angry|anxious,morning,Cleveland,OH,America/New_York,51,mostly clear,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+hopeful|gloomy,afternoon,San Diego,CA,America/Los_Angeles,63,overcast,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+curious|calm|angry,morning,Austin,TX,America/Chicago,31,snow,house_blend,Cardamom cortado,Espresso; milk; and cardamom.
+angry,evening,San Francisco,CA,America/Los_Angeles,51,showers,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+tired|gloomy,morning,Omaha,NE,America/Chicago,30,snow,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+sad|numb,afternoon,Kansas City,MO,America/Chicago,75,clear,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+anxious|motivated,afternoon,Honolulu,HI,Pacific/Honolulu,62,rain,espresso_smooth,Rosey oat latte,Espresso; oat milk; rose syrup; and cardamom.
+curious|calm|stressed,evening,Tucson,AZ,America/Phoenix,55,mostly clear,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+anxious|lonely|sad,evening,Cincinnati,OH,America/New_York,35,snow,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+restless,evening,Omaha,NE,America/Chicago,60,mostly clear,cacao_comfort,Peppermint mocha,Espresso; cocoa; peppermint; and steamed milk.
+calm,afternoon,Houston,TX,America/Chicago,80,clear,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+sad|motivated|curious,afternoon,Newark,NJ,America/New_York,59,mostly clear,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+bored|anxious|calm,morning,Albuquerque,NM,America/Denver,69,mostly clear,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+lonely|angry,evening,Columbus,OH,America/New_York,64,thunderstorm,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+tired|angry,afternoon,Anaheim,CA,America/Los_Angeles,43,drizzle,tea_floral,Maple chai blanket,Black tea; chai spice; maple; and vanilla cream.
+happy|anxious,afternoon,Las Vegas,NV,America/Los_Angeles,70,thunderstorm,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+angry|tired,morning,Louisville,KY,America/New_York,55,rain,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+curious|numb,afternoon,Tucson,AZ,America/Phoenix,34,snow,cold_brew_refresh,Yuzu cold brew,Cold brew; yuzu; and sparkling water.
+calm|happy,morning,Albuquerque,NM,America/Denver,54,fog,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+tired|angry,morning,Las Vegas,NV,America/Los_Angeles,62,clear,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+angry|anxious,morning,Cincinnati,OH,America/New_York,68,overcast,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+angry,afternoon,Boston,MA,America/New_York,46,fog,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+restless|anxious|bored,evening,Anchorage,AK,America/Anchorage,47,rain,cacao_comfort,Peppermint mocha,Espresso; cocoa; peppermint; and steamed milk.
+calm,afternoon,Tampa,FL,America/New_York,41,fog,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+calm|bored,evening,Corpus Christi,TX,America/Chicago,31,snow,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+calm|bored|motivated,afternoon,Irvine,CA,America/Los_Angeles,52,rain,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+hopeful|lonely,evening,Newark,NJ,America/New_York,75,thunderstorm,espresso_smooth,Lavender honey latte,Espresso; lavender; and honey.
+restless|happy,morning,Chula Vista,CA,America/Los_Angeles,50,overcast,cold_brew_refresh,Bright lime cold brew,Cold brew; lime; and a touch of agave.
+angry|sad,morning,Lincoln,NE,America/Chicago,57,mixed conditions,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+bored|sad|angry,morning,Honolulu,HI,Pacific/Honolulu,53,showers,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+motivated|bored,morning,New York,NY,America/New_York,74,thunderstorm,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+angry|anxious,evening,Santa Ana,CA,America/Los_Angeles,31,snow,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+tired,afternoon,Houston,TX,America/Chicago,69,mostly clear,tea_floral,Maple chai blanket,Black tea; chai spice; maple; and vanilla cream.
+angry,afternoon,El Paso,TX,America/Denver,52,rain,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+tired|curious|happy,morning,Oklahoma City,OK,America/Chicago,30,snow,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+gloomy|hopeful,morning,El Paso,TX,America/Denver,59,mixed conditions,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+calm|bored|motivated,afternoon,Minneapolis,MN,America/Chicago,61,rain,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+curious,afternoon,Durham,NC,America/New_York,46,rain,cold_brew_refresh,Yuzu cold brew,Cold brew; yuzu; and sparkling water.
+calm|bored|angry,evening,Anaheim,CA,America/Los_Angeles,48,fog,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+happy|calm,morning,Fort Worth,TX,America/Chicago,70,clear,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+calm|curious|happy,afternoon,Irvine,CA,America/Los_Angeles,66,mostly clear,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+motivated|lonely,afternoon,Omaha,NE,America/Chicago,58,clear,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+tired,evening,Tampa,FL,America/New_York,62,rain,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+numb|sad,afternoon,Omaha,NE,America/Chicago,59,fog,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+numb|stressed|restless,evening,Riverside,CA,America/Los_Angeles,43,fog,house_blend,Quiet chamomile,Chamomile tea with soft honey.
+restless|calm,afternoon,Tampa,FL,America/New_York,68,overcast,espresso_bold,Minted espresso shaker,Espresso; mint; and lightly sweetened milk.
+stressed,morning,Denver,CO,America/Denver,51,drizzle,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+restless|hopeful|calm,afternoon,Stockton,CA,America/Los_Angeles,48,fog,espresso_bold,Minted espresso shaker,Espresso; mint; and lightly sweetened milk.
+numb|hopeful|calm,morning,Colorado Springs,CO,America/Denver,54,overcast,espresso_smooth,Warm vanilla latte,Espresso; vanilla; and steamed milk.
+bored|anxious|happy,afternoon,Irvine,CA,America/Los_Angeles,84,clear,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+numb|gloomy,evening,Baltimore,MD,America/New_York,55,drizzle,house_blend,Quiet chamomile,Chamomile tea with soft honey.
+curious|bored,morning,Orlando,FL,America/New_York,57,showers,house_blend,Cardamom cortado,Espresso; milk; and cardamom.
+lonely|calm,morning,Denver,CO,America/Denver,52,mostly clear,house_blend,Vanilla oat cappuccino,Espresso; oat milk foam; and vanilla bean.
+sad|bored,morning,Anchorage,AK,America/Anchorage,50,drizzle,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+tired|hopeful,afternoon,Toledo,OH,America/New_York,64,overcast,tea_floral,Maple chai blanket,Black tea; chai spice; maple; and vanilla cream.
+curious|bored|restless,evening,Lexington,KY,America/New_York,63,showers,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+anxious,morning,Philadelphia,PA,America/New_York,76,mixed conditions,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+gloomy,morning,Atlanta,GA,America/New_York,58,rain,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+restless|happy|gloomy,morning,Memphis,TN,America/Chicago,48,fog,cold_brew_refresh,Bright lime cold brew,Cold brew; lime; and a touch of agave.
+gloomy|tired|bored,afternoon,Kansas City,MO,America/Chicago,49,drizzle,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+hopeful,evening,Arlington,TX,America/Chicago,52,overcast,espresso_smooth,Lavender honey latte,Espresso; lavender; and honey.
+curious|tired,evening,Omaha,NE,America/Chicago,74,thunderstorm,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+bored|tired|gloomy,afternoon,Toledo,OH,America/New_York,62,overcast,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+anxious|curious,morning,Fresno,CA,America/Los_Angeles,53,fog,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+calm|restless|stressed,evening,Arlington,TX,America/Chicago,69,overcast,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+bored|gloomy,afternoon,Chula Vista,CA,America/Los_Angeles,75,clear,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+calm|tired,morning,Orlando,FL,America/New_York,45,drizzle,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+sad,afternoon,Riverside,CA,America/Los_Angeles,70,thunderstorm,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+hopeful|numb|calm,morning,New Orleans,LA,America/Chicago,63,rain,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+calm,morning,San Antonio,TX,America/Chicago,58,showers,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+bored,evening,Mesa,AZ,America/Phoenix,62,mixed conditions,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+angry|bored|happy,morning,Fort Wayne,IN,America/Indiana/Indianapolis,59,drizzle,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+anxious|sad|hopeful,evening,Greensboro,NC,America/New_York,58,showers,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+calm,evening,Nashville,TN,America/Chicago,40,snow,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+happy,morning,Indianapolis,IN,America/Indiana/Indianapolis,63,mostly clear,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+anxious|hopeful,evening,Nashville,TN,America/Chicago,78,thunderstorm,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+calm|sad,afternoon,Colorado Springs,CO,America/Denver,31,snow,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+angry|anxious|motivated,afternoon,Portland,OR,America/Los_Angeles,75,thunderstorm,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+happy|restless|calm,morning,Orlando,FL,America/New_York,71,thunderstorm,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+restless|happy|sad,morning,Las Vegas,NV,America/Los_Angeles,55,drizzle,cold_brew_refresh,Bright lime cold brew,Cold brew; lime; and a touch of agave.
+lonely,evening,Colorado Springs,CO,America/Denver,60,rain,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+angry|numb|anxious,afternoon,Dallas,TX,America/Chicago,72,mixed conditions,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+gloomy|angry|sad,morning,Fort Wayne,IN,America/Indiana/Indianapolis,50,rain,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+calm|tired|gloomy,morning,Columbus,OH,America/New_York,53,drizzle,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+bored|anxious,afternoon,Houston,TX,America/Chicago,64,showers,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+calm|stressed,evening,Toledo,OH,America/New_York,63,rain,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+bored,evening,Boston,MA,America/New_York,63,overcast,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+bored,morning,San Diego,CA,America/Los_Angeles,53,showers,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+gloomy|angry|lonely,evening,Wichita,KS,America/Chicago,51,showers,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+anxious|gloomy,morning,Boston,MA,America/New_York,61,mostly clear,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+hopeful|angry|numb,afternoon,Bakersfield,CA,America/Los_Angeles,46,fog,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+angry,evening,Plano,TX,America/Chicago,74,thunderstorm,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+calm|tired|bored,evening,Lexington,KY,America/New_York,70,mixed conditions,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+motivated|hopeful,morning,Cincinnati,OH,America/New_York,54,drizzle,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+bored,morning,Memphis,TN,America/Chicago,36,snow,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+anxious|sad,morning,Omaha,NE,America/Chicago,55,fog,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+angry|restless|curious,evening,Newark,NJ,America/New_York,62,thunderstorm,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+tired,morning,Miami,FL,America/New_York,65,overcast,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+stressed,morning,Pittsburgh,PA,America/New_York,44,snow,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+hopeful|angry,morning,Sacramento,CA,America/Los_Angeles,32,snow,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+hopeful,afternoon,Boston,MA,America/New_York,65,clear,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+curious|angry|bored,evening,Atlanta,GA,America/New_York,67,mixed conditions,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+sad|bored,morning,St. Louis,MO,America/Chicago,65,overcast,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+calm|sad|happy,evening,Boston,MA,America/New_York,48,fog,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+happy|stressed,afternoon,New York,NY,America/New_York,35,snow,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+calm|curious|numb,morning,Aurora,CO,America/Denver,55,rain,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+sad|stressed|bored,afternoon,San Francisco,CA,America/Los_Angeles,76,thunderstorm,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+curious|restless|sad,evening,Durham,NC,America/New_York,53,showers,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+hopeful|numb|bored,evening,Lincoln,NE,America/Chicago,46,fog,espresso_smooth,Lavender honey latte,Espresso; lavender; and honey.
+calm,evening,Colorado Springs,CO,America/Denver,31,snow,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+stressed|gloomy|calm,evening,Lincoln,NE,America/Chicago,37,snow,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+gloomy,morning,Jacksonville,FL,America/New_York,54,rain,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+gloomy|hopeful,afternoon,Houston,TX,America/Chicago,76,clear,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+bored|anxious,evening,Los Angeles,CA,America/Los_Angeles,44,snow,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+calm|bored,evening,Chula Vista,CA,America/Los_Angeles,47,drizzle,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+stressed|numb,evening,New York,NY,America/New_York,66,thunderstorm,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+gloomy|angry|motivated,evening,Phoenix,AZ,America/Phoenix,68,thunderstorm,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+calm,afternoon,Columbus,OH,America/New_York,56,clear,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+hopeful,afternoon,Nashville,TN,America/Chicago,64,mixed conditions,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+anxious,afternoon,Washington,DC,America/New_York,40,fog,espresso_smooth,Rosey oat latte,Espresso; oat milk; rose syrup; and cardamom.
+sad|tired,morning,Oklahoma City,OK,America/Chicago,69,thunderstorm,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+happy|hopeful|curious,afternoon,San Jose,CA,America/Los_Angeles,80,mixed conditions,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+stressed|tired|hopeful,afternoon,Cincinnati,OH,America/New_York,47,drizzle,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+hopeful,afternoon,Tulsa,OK,America/Chicago,55,clear,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+calm|bored|restless,afternoon,Bakersfield,CA,America/Los_Angeles,75,thunderstorm,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+stressed|calm,evening,Tulsa,OK,America/Chicago,50,rain,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+restless,afternoon,Mesa,AZ,America/Phoenix,72,clear,espresso_bold,Minted espresso shaker,Espresso; mint; and lightly sweetened milk.
+gloomy,evening,Baltimore,MD,America/New_York,52,rain,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+calm|stressed|angry,afternoon,Mesa,AZ,America/Phoenix,53,overcast,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+hopeful|angry|motivated,afternoon,Miami,FL,America/New_York,56,rain,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+curious,morning,Stockton,CA,America/Los_Angeles,52,rain,house_blend,Cardamom cortado,Espresso; milk; and cardamom.
+anxious,evening,Minneapolis,MN,America/Chicago,59,showers,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+motivated|lonely,morning,Milwaukee,WI,America/Chicago,77,thunderstorm,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+hopeful,afternoon,Dallas,TX,America/Chicago,50,overcast,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+angry|calm|gloomy,afternoon,Louisville,KY,America/New_York,49,rain,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+angry|happy|stressed,evening,Pittsburgh,PA,America/New_York,64,showers,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+hopeful|curious|restless,evening,Sacramento,CA,America/Los_Angeles,56,rain,espresso_smooth,Lavender honey latte,Espresso; lavender; and honey.
+numb|angry|happy,evening,Austin,TX,America/Chicago,55,drizzle,house_blend,Quiet chamomile,Chamomile tea with soft honey.
+gloomy|happy|calm,evening,Omaha,NE,America/Chicago,61,mostly clear,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+angry|numb,morning,San Diego,CA,America/Los_Angeles,79,thunderstorm,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+motivated,morning,Pittsburgh,PA,America/New_York,43,drizzle,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+stressed|angry|tired,afternoon,Denver,CO,America/Denver,62,showers,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+motivated|lonely,morning,Omaha,NE,America/Chicago,62,clear,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+tired|bored,afternoon,Stockton,CA,America/Los_Angeles,55,fog,tea_floral,Maple chai blanket,Black tea; chai spice; maple; and vanilla cream.
+tired|curious|happy,evening,Santa Ana,CA,America/Los_Angeles,55,drizzle,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+numb,evening,Chicago,IL,America/Chicago,61,mostly clear,house_blend,Quiet chamomile,Chamomile tea with soft honey.
+tired|happy,afternoon,Riverside,CA,America/Los_Angeles,80,mixed conditions,tea_floral,Maple chai blanket,Black tea; chai spice; maple; and vanilla cream.
+numb,morning,Miami,FL,America/New_York,64,showers,espresso_smooth,Warm vanilla latte,Espresso; vanilla; and steamed milk.
+anxious,afternoon,Portland,OR,America/Los_Angeles,67,mixed conditions,espresso_smooth,Rosey oat latte,Espresso; oat milk; rose syrup; and cardamom.
+numb,afternoon,Arlington,TX,America/Chicago,68,overcast,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+stressed|bored,afternoon,Lexington,KY,America/New_York,68,mostly clear,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+bored|calm|tired,afternoon,Tucson,AZ,America/Phoenix,74,thunderstorm,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+bored|hopeful|anxious,afternoon,Santa Ana,CA,America/Los_Angeles,33,snow,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+gloomy,morning,Houston,TX,America/Chicago,65,thunderstorm,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+numb|happy,morning,Bakersfield,CA,America/Los_Angeles,64,mixed conditions,espresso_smooth,Warm vanilla latte,Espresso; vanilla; and steamed milk.
+motivated|hopeful,afternoon,Corpus Christi,TX,America/Chicago,75,thunderstorm,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+calm|angry,afternoon,Houston,TX,America/Chicago,52,drizzle,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+hopeful,morning,San Jose,CA,America/Los_Angeles,49,drizzle,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+happy|motivated|numb,evening,Plano,TX,America/Chicago,45,rain,matcha_creamy,Golden matcha cloud,Matcha; oat milk; turmeric; and a salted honey cap.
+gloomy,afternoon,Irvine,CA,America/Los_Angeles,75,thunderstorm,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+hopeful|motivated|tired,evening,Arlington,TX,America/Chicago,43,snow,espresso_smooth,Lavender honey latte,Espresso; lavender; and honey.
+restless|calm|bored,afternoon,Columbus,OH,America/New_York,52,overcast,espresso_bold,Minted espresso shaker,Espresso; mint; and lightly sweetened milk.
+curious,afternoon,Fort Worth,TX,America/Chicago,68,mixed conditions,cold_brew_refresh,Yuzu cold brew,Cold brew; yuzu; and sparkling water.
+motivated,afternoon,Tulsa,OK,America/Chicago,47,fog,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+sad|tired|angry,morning,Pittsburgh,PA,America/New_York,49,rain,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+angry|tired,evening,St. Paul,MN,America/Chicago,52,drizzle,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+angry,afternoon,Chicago,IL,America/Chicago,74,clear,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+angry|happy|stressed,evening,Tulsa,OK,America/Chicago,50,showers,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+happy|anxious,evening,Charlotte,NC,America/New_York,74,clear,matcha_creamy,Golden matcha cloud,Matcha; oat milk; turmeric; and a salted honey cap.
+bored|stressed|tired,afternoon,Tulsa,OK,America/Chicago,63,mixed conditions,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+stressed,morning,Philadelphia,PA,America/New_York,38,snow,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+angry|lonely,morning,Bakersfield,CA,America/Los_Angeles,72,mixed conditions,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+hopeful|curious|angry,morning,Durham,NC,America/New_York,50,overcast,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+stressed,evening,Omaha,NE,America/Chicago,42,drizzle,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+gloomy|happy|curious,morning,Orlando,FL,America/New_York,49,drizzle,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+numb|sad,evening,Cleveland,OH,America/New_York,34,snow,house_blend,Quiet chamomile,Chamomile tea with soft honey.
+anxious,morning,Portland,OR,America/Los_Angeles,36,snow,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+angry|numb|hopeful,afternoon,Oklahoma City,OK,America/Chicago,64,thunderstorm,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+numb|motivated|hopeful,afternoon,Durham,NC,America/New_York,75,thunderstorm,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+anxious,evening,Raleigh,NC,America/New_York,72,thunderstorm,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+gloomy,afternoon,Toledo,OH,America/New_York,76,thunderstorm,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+sad|angry|stressed,morning,New Orleans,LA,America/Chicago,57,fog,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+calm|lonely,afternoon,Seattle,WA,America/Los_Angeles,59,overcast,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+curious|calm,afternoon,Cincinnati,OH,America/New_York,82,clear,cold_brew_refresh,Yuzu cold brew,Cold brew; yuzu; and sparkling water.
+stressed|calm,morning,Plano,TX,America/Chicago,40,fog,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+numb,morning,New York,NY,America/New_York,66,thunderstorm,espresso_smooth,Warm vanilla latte,Espresso; vanilla; and steamed milk.
+tired|happy|angry,morning,Tampa,FL,America/New_York,73,clear,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+lonely,afternoon,Anchorage,AK,America/Anchorage,46,fog,espresso_smooth,Honey almond latte,Espresso; almond milk; and soft honey.
+gloomy|curious|tired,afternoon,Omaha,NE,America/Chicago,68,thunderstorm,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+sad|restless,afternoon,New York,NY,America/New_York,43,fog,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+happy|stressed,morning,Stockton,CA,America/Los_Angeles,68,mostly clear,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+gloomy|numb|stressed,morning,Denver,CO,America/Denver,67,thunderstorm,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+sad|restless,afternoon,Chula Vista,CA,America/Los_Angeles,62,mostly clear,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+happy,morning,Riverside,CA,America/Los_Angeles,82,clear,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+restless,afternoon,Fort Worth,TX,America/Chicago,73,clear,espresso_bold,Minted espresso shaker,Espresso; mint; and lightly sweetened milk.
+angry|anxious|bored,afternoon,Las Vegas,NV,America/Los_Angeles,59,mostly clear,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+calm|restless,afternoon,Louisville,KY,America/New_York,45,rain,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+stressed|angry,afternoon,San Diego,CA,America/Los_Angeles,57,fog,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+motivated,morning,Orlando,FL,America/New_York,55,showers,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+angry|calm|bored,afternoon,Newark,NJ,America/New_York,47,showers,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+restless|motivated|calm,morning,Houston,TX,America/Chicago,50,drizzle,cold_brew_refresh,Bright lime cold brew,Cold brew; lime; and a touch of agave.
+anxious|stressed|curious,evening,San Diego,CA,America/Los_Angeles,55,rain,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+happy,afternoon,Los Angeles,CA,America/Los_Angeles,62,showers,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+curious,afternoon,Louisville,KY,America/New_York,56,rain,cold_brew_refresh,Yuzu cold brew,Cold brew; yuzu; and sparkling water.
+curious|happy|motivated,morning,Cincinnati,OH,America/New_York,76,clear,house_blend,Cardamom cortado,Espresso; milk; and cardamom.
+lonely|angry|motivated,evening,Newark,NJ,America/New_York,34,snow,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+anxious|calm,morning,Oakland,CA,America/Los_Angeles,55,fog,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+hopeful|numb,morning,Omaha,NE,America/Chicago,80,clear,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+hopeful|motivated,evening,Bakersfield,CA,America/Los_Angeles,40,snow,espresso_smooth,Lavender honey latte,Espresso; lavender; and honey.
+calm,morning,Toledo,OH,America/New_York,59,showers,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+happy,afternoon,New Orleans,LA,America/Chicago,63,overcast,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+stressed|curious|happy,afternoon,Raleigh,NC,America/New_York,68,mixed conditions,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+calm,afternoon,Cincinnati,OH,America/New_York,64,clear,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+angry,evening,New Orleans,LA,America/Chicago,59,mostly clear,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+sad|calm,afternoon,Kansas City,MO,America/Chicago,37,snow,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+calm|gloomy,afternoon,Detroit,MI,America/Detroit,51,showers,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+calm|restless,afternoon,Anaheim,CA,America/Los_Angeles,52,drizzle,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+sad|calm|hopeful,morning,Corpus Christi,TX,America/Chicago,57,overcast,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+calm,morning,San Jose,CA,America/Los_Angeles,49,drizzle,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+hopeful|bored,evening,Lexington,KY,America/New_York,67,thunderstorm,espresso_smooth,Lavender honey latte,Espresso; lavender; and honey.
+anxious|stressed,afternoon,Atlanta,GA,America/New_York,69,mostly clear,espresso_smooth,Rosey oat latte,Espresso; oat milk; rose syrup; and cardamom.
+tired,morning,Indianapolis,IN,America/Indiana/Indianapolis,62,mostly clear,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+tired,morning,Louisville,KY,America/New_York,53,fog,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+lonely|sad,morning,Honolulu,HI,Pacific/Honolulu,58,overcast,house_blend,Vanilla oat cappuccino,Espresso; oat milk foam; and vanilla bean.
+happy|angry,evening,Lexington,KY,America/New_York,51,mostly clear,matcha_creamy,Golden matcha cloud,Matcha; oat milk; turmeric; and a salted honey cap.
+bored,evening,Newark,NJ,America/New_York,74,mixed conditions,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+angry|anxious,morning,Lexington,KY,America/New_York,48,rain,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+angry,evening,Irvine,CA,America/Los_Angeles,69,overcast,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+numb|restless,afternoon,Greensboro,NC,America/New_York,59,fog,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+curious|calm,morning,Aurora,CO,America/Denver,42,fog,house_blend,Cardamom cortado,Espresso; milk; and cardamom.
+hopeful|curious,morning,Stockton,CA,America/Los_Angeles,72,thunderstorm,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+bored|numb|hopeful,evening,New York,NY,America/New_York,56,fog,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+curious|calm,afternoon,Houston,TX,America/Chicago,61,showers,cold_brew_refresh,Yuzu cold brew,Cold brew; yuzu; and sparkling water.
+angry|anxious|curious,evening,Irvine,CA,America/Los_Angeles,56,overcast,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+happy|angry|tired,morning,St. Paul,MN,America/Chicago,68,mostly clear,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+numb,morning,Columbus,OH,America/New_York,81,clear,espresso_smooth,Warm vanilla latte,Espresso; vanilla; and steamed milk.
+angry|hopeful|restless,evening,Plano,TX,America/Chicago,62,rain,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+hopeful|sad,afternoon,Miami,FL,America/New_York,61,mostly clear,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+motivated,morning,Toledo,OH,America/New_York,54,mostly clear,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+calm|tired|stressed,morning,Wichita,KS,America/Chicago,54,fog,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+restless|happy|curious,evening,Lincoln,NE,America/Chicago,68,thunderstorm,cacao_comfort,Peppermint mocha,Espresso; cocoa; peppermint; and steamed milk.
+happy|angry|stressed,afternoon,Atlanta,GA,America/New_York,71,thunderstorm,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+angry|tired,morning,Miami,FL,America/New_York,53,mostly clear,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+angry|numb,afternoon,Atlanta,GA,America/New_York,57,showers,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+gloomy|motivated,morning,New Orleans,LA,America/Chicago,44,snow,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+lonely|calm|angry,evening,Boston,MA,America/New_York,63,mostly clear,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+happy|angry,afternoon,Oklahoma City,OK,America/Chicago,79,mixed conditions,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+hopeful|angry,evening,Honolulu,HI,Pacific/Honolulu,54,fog,espresso_smooth,Lavender honey latte,Espresso; lavender; and honey.
+hopeful,afternoon,Wichita,KS,America/Chicago,54,showers,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+angry|anxious|bored,evening,Newark,NJ,America/New_York,63,thunderstorm,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+happy|restless|angry,evening,Kansas City,MO,America/Chicago,77,mixed conditions,matcha_creamy,Golden matcha cloud,Matcha; oat milk; turmeric; and a salted honey cap.
+curious,afternoon,El Paso,TX,America/Denver,53,showers,cold_brew_refresh,Yuzu cold brew,Cold brew; yuzu; and sparkling water.
+hopeful,morning,Cincinnati,OH,America/New_York,67,mostly clear,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+bored,morning,Irvine,CA,America/Los_Angeles,68,overcast,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+stressed|gloomy,evening,St. Louis,MO,America/Chicago,53,drizzle,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+sad,evening,Orlando,FL,America/New_York,31,snow,house_blend,Vanilla chamomile,Chamomile tea; vanilla bean; and steamed milk.
+calm,evening,Nashville,TN,America/Chicago,60,clear,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+tired|lonely,afternoon,Fresno,CA,America/Los_Angeles,31,snow,tea_floral,Maple chai blanket,Black tea; chai spice; maple; and vanilla cream.
+gloomy,afternoon,Santa Ana,CA,America/Los_Angeles,41,snow,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+anxious,morning,Orlando,FL,America/New_York,41,drizzle,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+happy|sad|numb,morning,Miami,FL,America/New_York,70,mixed conditions,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+stressed|angry,morning,Fort Worth,TX,America/Chicago,55,mixed conditions,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+angry,evening,Omaha,NE,America/Chicago,46,fog,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+sad,morning,Los Angeles,CA,America/Los_Angeles,64,mostly clear,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+anxious|calm|hopeful,afternoon,Colorado Springs,CO,America/Denver,60,rain,espresso_smooth,Rosey oat latte,Espresso; oat milk; rose syrup; and cardamom.
+lonely,afternoon,Oklahoma City,OK,America/Chicago,72,thunderstorm,espresso_smooth,Honey almond latte,Espresso; almond milk; and soft honey.
+calm|bored|stressed,evening,Anaheim,CA,America/Los_Angeles,68,thunderstorm,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+numb,afternoon,Fort Worth,TX,America/Chicago,58,rain,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+happy,evening,New Orleans,LA,America/Chicago,64,clear,matcha_creamy,Golden matcha cloud,Matcha; oat milk; turmeric; and a salted honey cap.
+tired,morning,New Orleans,LA,America/Chicago,56,overcast,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+sad|calm|angry,evening,Santa Ana,CA,America/Los_Angeles,50,showers,house_blend,Vanilla chamomile,Chamomile tea; vanilla bean; and steamed milk.
+lonely|restless|angry,evening,Colorado Springs,CO,America/Denver,31,snow,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+calm|motivated,evening,Irvine,CA,America/Los_Angeles,53,drizzle,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+numb|gloomy|happy,morning,Mesa,AZ,America/Phoenix,59,fog,espresso_smooth,Warm vanilla latte,Espresso; vanilla; and steamed milk.
+calm|bored,morning,Charlotte,NC,America/New_York,57,overcast,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+angry|anxious|curious,morning,Detroit,MI,America/Detroit,69,thunderstorm,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+motivated,afternoon,Washington,DC,America/New_York,44,snow,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+bored,afternoon,Colorado Springs,CO,America/Denver,45,drizzle,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+curious,evening,Portland,OR,America/Los_Angeles,52,fog,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+stressed|lonely,afternoon,Tulsa,OK,America/Chicago,67,overcast,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+stressed,afternoon,Portland,OR,America/Los_Angeles,48,rain,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+lonely|calm|motivated,morning,Jacksonville,FL,America/New_York,34,snow,house_blend,Vanilla oat cappuccino,Espresso; oat milk foam; and vanilla bean.
+lonely|numb|gloomy,evening,Kansas City,MO,America/Chicago,52,overcast,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+curious|tired,evening,Cleveland,OH,America/New_York,46,showers,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+calm,afternoon,Wichita,KS,America/Chicago,55,overcast,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+calm|curious,morning,Boston,MA,America/New_York,51,rain,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+curious,morning,Oklahoma City,OK,America/Chicago,69,thunderstorm,house_blend,Cardamom cortado,Espresso; milk; and cardamom.
+angry|calm,afternoon,Greensboro,NC,America/New_York,60,clear,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+restless|angry,evening,San Antonio,TX,America/Chicago,53,fog,cacao_comfort,Peppermint mocha,Espresso; cocoa; peppermint; and steamed milk.
+gloomy,evening,Cincinnati,OH,America/New_York,59,showers,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+lonely|gloomy|motivated,morning,Orlando,FL,America/New_York,53,rain,house_blend,Vanilla oat cappuccino,Espresso; oat milk foam; and vanilla bean.
+angry|restless|anxious,evening,San Diego,CA,America/Los_Angeles,51,fog,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+angry|sad|happy,evening,Lincoln,NE,America/Chicago,68,mostly clear,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+sad|motivated|curious,afternoon,Chula Vista,CA,America/Los_Angeles,43,fog,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+anxious|motivated,evening,Jacksonville,FL,America/New_York,54,rain,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+sad|restless|angry,afternoon,Chicago,IL,America/Chicago,61,thunderstorm,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+sad|numb,evening,Mesa,AZ,America/Phoenix,41,snow,house_blend,Vanilla chamomile,Chamomile tea; vanilla bean; and steamed milk.
+stressed|bored|anxious,evening,Cincinnati,OH,America/New_York,62,mostly clear,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+hopeful|anxious|stressed,afternoon,Stockton,CA,America/Los_Angeles,54,fog,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+numb|hopeful|angry,morning,Arlington,TX,America/Chicago,60,mixed conditions,espresso_smooth,Warm vanilla latte,Espresso; vanilla; and steamed milk.
+angry|hopeful|numb,morning,Greensboro,NC,America/New_York,56,drizzle,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+calm|bored,evening,Albuquerque,NM,America/Denver,47,rain,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+angry|gloomy|stressed,afternoon,Raleigh,NC,America/New_York,73,clear,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+happy|numb,afternoon,Louisville,KY,America/New_York,80,mixed conditions,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+restless|motivated,afternoon,Stockton,CA,America/Los_Angeles,62,rain,espresso_bold,Minted espresso shaker,Espresso; mint; and lightly sweetened milk.
+anxious|sad,afternoon,Fort Worth,TX,America/Chicago,53,showers,espresso_smooth,Rosey oat latte,Espresso; oat milk; rose syrup; and cardamom.
+hopeful,morning,Philadelphia,PA,America/New_York,55,showers,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+stressed,evening,San Jose,CA,America/Los_Angeles,46,drizzle,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+numb|bored,evening,Santa Ana,CA,America/Los_Angeles,67,clear,house_blend,Quiet chamomile,Chamomile tea with soft honey.
+curious|gloomy|calm,evening,Corpus Christi,TX,America/Chicago,57,clear,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+gloomy|calm,evening,Cincinnati,OH,America/New_York,46,drizzle,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+sad|happy|anxious,morning,Chicago,IL,America/Chicago,58,mostly clear,cacao_comfort,Soft cacao mocha,Espresso; cocoa; vanilla; and warm milk.
+curious,evening,Honolulu,HI,Pacific/Honolulu,51,mostly clear,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+calm|motivated,evening,Omaha,NE,America/Chicago,63,mixed conditions,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+happy|stressed|anxious,afternoon,Wichita,KS,America/Chicago,48,drizzle,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+bored|numb|curious,afternoon,Arlington,TX,America/Chicago,40,snow,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+lonely,morning,Toledo,OH,America/New_York,63,clear,house_blend,Vanilla oat cappuccino,Espresso; oat milk foam; and vanilla bean.
+gloomy|sad|happy,afternoon,Anaheim,CA,America/Los_Angeles,77,clear,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+stressed,morning,Portland,OR,America/Los_Angeles,51,showers,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+bored,evening,Fort Wayne,IN,America/Indiana/Indianapolis,51,mostly clear,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+sad|numb|calm,evening,Denver,CO,America/Denver,61,showers,house_blend,Vanilla chamomile,Chamomile tea; vanilla bean; and steamed milk.
+calm|bored,afternoon,St. Paul,MN,America/Chicago,43,fog,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+tired|restless,afternoon,Austin,TX,America/Chicago,52,fog,tea_floral,Maple chai blanket,Black tea; chai spice; maple; and vanilla cream.
+numb,afternoon,Las Vegas,NV,America/Los_Angeles,59,rain,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+numb,afternoon,Toledo,OH,America/New_York,59,rain,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+lonely,morning,Miami,FL,America/New_York,78,clear,house_blend,Vanilla oat cappuccino,Espresso; oat milk foam; and vanilla bean.
+bored|calm|stressed,morning,Toledo,OH,America/New_York,66,overcast,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+hopeful,morning,Charlotte,NC,America/New_York,55,drizzle,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+angry|hopeful|anxious,morning,Greensboro,NC,America/New_York,46,fog,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+angry,afternoon,Santa Ana,CA,America/Los_Angeles,52,showers,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+motivated|gloomy,morning,Fresno,CA,America/Los_Angeles,35,snow,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+hopeful,afternoon,Riverside,CA,America/Los_Angeles,79,mixed conditions,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+angry,morning,Washington,DC,America/New_York,49,showers,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+stressed|bored,afternoon,Columbus,OH,America/New_York,78,clear,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+angry|motivated|tired,afternoon,St. Louis,MO,America/Chicago,58,mostly clear,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+motivated|stressed|numb,morning,El Paso,TX,America/Denver,57,drizzle,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+tired|sad,evening,Irvine,CA,America/Los_Angeles,63,overcast,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+tired|calm,afternoon,Lexington,KY,America/New_York,40,drizzle,tea_floral,Maple chai blanket,Black tea; chai spice; maple; and vanilla cream.
+lonely|angry|hopeful,afternoon,Honolulu,HI,Pacific/Honolulu,30,snow,espresso_smooth,Honey almond latte,Espresso; almond milk; and soft honey.
+calm|happy,evening,Irvine,CA,America/Los_Angeles,46,showers,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+lonely|tired|hopeful,evening,Kansas City,MO,America/Chicago,81,clear,cacao_comfort,Cocoa comfort,Cocoa; warm milk; and a pinch of cinnamon.
+stressed|calm,afternoon,St. Louis,MO,America/Chicago,52,rain,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+anxious|restless|angry,evening,Oklahoma City,OK,America/Chicago,57,mostly clear,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+restless|gloomy|calm,evening,Aurora,CO,America/Denver,52,mostly clear,cacao_comfort,Peppermint mocha,Espresso; cocoa; peppermint; and steamed milk.
+angry,morning,Los Angeles,CA,America/Los_Angeles,60,showers,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+motivated,afternoon,Cincinnati,OH,America/New_York,47,drizzle,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+bored|anxious,morning,Tampa,FL,America/New_York,65,mostly clear,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+calm|restless|stressed,evening,Dallas,TX,America/Chicago,53,mostly clear,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+sad|numb|hopeful,evening,Riverside,CA,America/Los_Angeles,52,showers,house_blend,Vanilla chamomile,Chamomile tea; vanilla bean; and steamed milk.
+calm|tired,evening,Anchorage,AK,America/Anchorage,66,overcast,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+bored,afternoon,Omaha,NE,America/Chicago,66,thunderstorm,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+calm,afternoon,San Antonio,TX,America/Chicago,56,fog,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+sad|bored|angry,evening,Raleigh,NC,America/New_York,61,overcast,house_blend,Vanilla chamomile,Chamomile tea; vanilla bean; and steamed milk.
+motivated|restless|numb,afternoon,Lexington,KY,America/New_York,54,overcast,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+tired|angry|hopeful,afternoon,San Francisco,CA,America/Los_Angeles,44,snow,tea_floral,Maple chai blanket,Black tea; chai spice; maple; and vanilla cream.
+tired|calm,afternoon,Colorado Springs,CO,America/Denver,44,snow,tea_floral,Maple chai blanket,Black tea; chai spice; maple; and vanilla cream.
+hopeful,morning,Tucson,AZ,America/Phoenix,48,fog,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+lonely,afternoon,Irvine,CA,America/Los_Angeles,63,thunderstorm,espresso_smooth,Honey almond latte,Espresso; almond milk; and soft honey.
+calm|stressed|numb,evening,Charlotte,NC,America/New_York,66,mixed conditions,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+anxious|restless,evening,San Jose,CA,America/Los_Angeles,54,rain,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+calm,afternoon,St. Louis,MO,America/Chicago,60,overcast,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+happy|bored|anxious,afternoon,Tucson,AZ,America/Phoenix,47,drizzle,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+calm,morning,Newark,NJ,America/New_York,58,mostly clear,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+bored,morning,Omaha,NE,America/Chicago,83,clear,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+numb|angry,afternoon,Lexington,KY,America/New_York,54,fog,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+stressed|sad,evening,Albuquerque,NM,America/Denver,76,thunderstorm,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+angry,afternoon,El Paso,TX,America/Denver,37,snow,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+stressed|anxious,afternoon,Miami,FL,America/New_York,58,rain,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+calm,evening,Denver,CO,America/Denver,84,clear,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+restless|angry|anxious,evening,San Francisco,CA,America/Los_Angeles,61,thunderstorm,cacao_comfort,Peppermint mocha,Espresso; cocoa; peppermint; and steamed milk.
+tired|restless,morning,Omaha,NE,America/Chicago,44,snow,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+restless|stressed|calm,evening,Atlanta,GA,America/New_York,59,showers,cacao_comfort,Peppermint mocha,Espresso; cocoa; peppermint; and steamed milk.
+numb|curious|lonely,afternoon,Wichita,KS,America/Chicago,36,snow,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+angry,evening,Tulsa,OK,America/Chicago,44,drizzle,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+lonely|restless,morning,Baltimore,MD,America/New_York,33,snow,house_blend,Vanilla oat cappuccino,Espresso; oat milk foam; and vanilla bean.
+bored|angry,afternoon,Toledo,OH,America/New_York,67,overcast,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+anxious|restless,morning,Anchorage,AK,America/Anchorage,60,rain,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+anxious|sad,afternoon,Anaheim,CA,America/Los_Angeles,51,mostly clear,espresso_smooth,Rosey oat latte,Espresso; oat milk; rose syrup; and cardamom.
+anxious|hopeful|gloomy,evening,Colorado Springs,CO,America/Denver,43,drizzle,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+calm|numb|bored,afternoon,Detroit,MI,America/Detroit,61,rain,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+angry|curious,morning,Columbus,OH,America/New_York,71,clear,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+calm,evening,Lincoln,NE,America/Chicago,50,drizzle,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+motivated,evening,Philadelphia,PA,America/New_York,81,clear,tea_floral,Cascara tea,Coffee cherry tea; citrus; and honey.
+curious,afternoon,New York,NY,America/New_York,49,drizzle,cold_brew_refresh,Yuzu cold brew,Cold brew; yuzu; and sparkling water.
+motivated|bored|anxious,afternoon,Seattle,WA,America/Los_Angeles,52,mostly clear,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+motivated,evening,Washington,DC,America/New_York,59,rain,tea_floral,Cascara tea,Coffee cherry tea; citrus; and honey.
+stressed|anxious,afternoon,Colorado Springs,CO,America/Denver,62,rain,tea_floral,Black tea tonic,Assam tea; tonic; lemon; and a touch of sage.
+bored|anxious,evening,Washington,DC,America/New_York,65,mixed conditions,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+sad,evening,Irvine,CA,America/Los_Angeles,57,mostly clear,house_blend,Vanilla chamomile,Chamomile tea; vanilla bean; and steamed milk.
+restless|lonely|tired,evening,Durham,NC,America/New_York,38,snow,cacao_comfort,Peppermint mocha,Espresso; cocoa; peppermint; and steamed milk.
+bored,evening,Atlanta,GA,America/New_York,54,overcast,espresso_smooth,Black sesame latte,Espresso; black sesame; and steamed milk.
+numb,afternoon,Minneapolis,MN,America/Chicago,40,snow,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+stressed|calm,evening,Memphis,TN,America/Chicago,58,mixed conditions,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+tired|calm|sad,evening,Colorado Springs,CO,America/Denver,53,rain,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+bored|lonely|motivated,morning,St. Louis,MO,America/Chicago,47,drizzle,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+tired,afternoon,Anaheim,CA,America/Los_Angeles,60,mostly clear,tea_floral,Maple chai blanket,Black tea; chai spice; maple; and vanilla cream.
+numb|lonely|angry,afternoon,Raleigh,NC,America/New_York,55,mixed conditions,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+restless|hopeful|calm,morning,Portland,OR,America/Los_Angeles,66,overcast,cold_brew_refresh,Bright lime cold brew,Cold brew; lime; and a touch of agave.
+calm|angry,morning,Charlotte,NC,America/New_York,69,mixed conditions,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+sad|calm|anxious,afternoon,Denver,CO,America/Denver,59,rain,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+bored|anxious,afternoon,Mesa,AZ,America/Phoenix,59,fog,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+hopeful|happy,morning,Las Vegas,NV,America/Los_Angeles,46,fog,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+angry,evening,Los Angeles,CA,America/Los_Angeles,49,showers,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+hopeful|calm,morning,Arlington,TX,America/Chicago,56,fog,matcha_creamy,Citrus matcha,Matcha; lemon; and oat milk.
+calm|hopeful|motivated,morning,Omaha,NE,America/Chicago,66,overcast,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+happy|anxious|motivated,evening,Charlotte,NC,America/New_York,53,fog,matcha_creamy,Golden matcha cloud,Matcha; oat milk; turmeric; and a salted honey cap.
+angry,afternoon,San Antonio,TX,America/Chicago,64,mixed conditions,sparkling_refresh,Hibiscus nitro fizz,Nitro cold brew; hibiscus; berry shrub; and soda.
+stressed|lonely,evening,San Jose,CA,America/Los_Angeles,67,thunderstorm,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+curious|bored,afternoon,New York,NY,America/New_York,60,thunderstorm,cold_brew_refresh,Yuzu cold brew,Cold brew; yuzu; and sparkling water.
+sad|calm|hopeful,afternoon,Riverside,CA,America/Los_Angeles,34,snow,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+bored|anxious|gloomy,morning,El Paso,TX,America/Denver,52,overcast,matcha_creamy,Tropical iced matcha,Matcha; coconut milk; pineapple; and lime zest.
+calm|sad,afternoon,Orlando,FL,America/New_York,64,thunderstorm,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+anxious|gloomy|lonely,morning,Pittsburgh,PA,America/New_York,56,mostly clear,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+calm|hopeful|sad,evening,Cleveland,OH,America/New_York,47,drizzle,tea_floral,Chamomile vanilla steam,Chamomile; vanilla bean; and warm milk.
+stressed|angry|anxious,morning,Philadelphia,PA,America/New_York,57,drizzle,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+curious,morning,Louisville,KY,America/New_York,49,drizzle,house_blend,Cardamom cortado,Espresso; milk; and cardamom.
+gloomy,afternoon,Anaheim,CA,America/Los_Angeles,72,mixed conditions,espresso_smooth,Maple oat latte,Espresso; oat milk; and maple syrup.
+motivated|calm|sad,afternoon,Cincinnati,OH,America/New_York,64,showers,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+bored|calm,afternoon,Bakersfield,CA,America/Los_Angeles,81,clear,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+gloomy,morning,San Francisco,CA,America/Los_Angeles,63,overcast,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+motivated|gloomy|curious,evening,Greensboro,NC,America/New_York,63,thunderstorm,tea_floral,Cascara tea,Coffee cherry tea; citrus; and honey.
+gloomy|tired|calm,evening,Tucson,AZ,America/Phoenix,46,showers,house_blend,Smoky cacao,Cacao; smoked salt; and warm milk.
+happy|numb|calm,afternoon,Indianapolis,IN,America/Indiana/Indianapolis,55,overcast,sparkling_refresh,Citrus cold brew spritz,Cold brew; grapefruit soda; honey; and a twist of lime.
+hopeful|curious,afternoon,Houston,TX,America/Chicago,33,snow,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+calm,morning,Santa Ana,CA,America/Los_Angeles,47,fog,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+hopeful|curious,afternoon,Austin,TX,America/Chicago,43,fog,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+anxious,morning,Tampa,FL,America/New_York,53,fog,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+happy,morning,Irvine,CA,America/Los_Angeles,53,mostly clear,sparkling_refresh,Sunrise espresso tonic,Double espresso; tonic; orange peel; and rosemary mist.
+numb,morning,San Diego,CA,America/Los_Angeles,31,snow,espresso_smooth,Warm vanilla latte,Espresso; vanilla; and steamed milk.
+stressed,morning,Lexington,KY,America/New_York,84,mixed conditions,house_blend,Clean shot cortado,Ristretto; silky milk; and a hint of cacao nib.
+gloomy|angry,morning,New York,NY,America/New_York,34,snow,cacao_comfort,Mocha drizzle,Espresso; cocoa; and dark sugar.
+tired,evening,Fort Worth,TX,America/Chicago,58,overcast,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+anxious|happy,morning,San Antonio,TX,America/Chicago,58,overcast,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+calm|numb|happy,morning,El Paso,TX,America/Denver,68,mixed conditions,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+tired|restless,morning,Anchorage,AK,America/Anchorage,65,mixed conditions,espresso_smooth,Toasted hazelnut latte,Espresso; steamed oat milk; hazelnut; and cinnamon dust.
+hopeful,afternoon,Greensboro,NC,America/New_York,84,mixed conditions,tea_floral,Sparkling peach tea,White tea; peach; and soda.
+motivated|restless|happy,evening,Phoenix,AZ,America/Phoenix,56,fog,tea_floral,Cascara tea,Coffee cherry tea; citrus; and honey.
+angry|curious|numb,evening,New Orleans,LA,America/Chicago,58,fog,espresso_smooth,Miso caramel latte,Espresso; miso caramel; and velvety oat milk.
+restless|gloomy,morning,Lexington,KY,America/New_York,60,overcast,cold_brew_refresh,Bright lime cold brew,Cold brew; lime; and a touch of agave.
+anxious,evening,Corpus Christi,TX,America/Chicago,56,overcast,house_blend,Warm almond cacao,Cacao; almond milk; and a pinch of cinnamon.
+tired,afternoon,Cleveland,OH,America/New_York,67,mostly clear,tea_floral,Maple chai blanket,Black tea; chai spice; maple; and vanilla cream.
+calm|numb,morning,Anchorage,AK,America/Anchorage,57,rain,house_blend,Lavender oat flat white,Oat milk flat white with lavender and vanilla.
+stressed|curious,evening,Seattle,WA,America/Los_Angeles,56,fog,tea_floral,Jasmine clarity latte,Jasmine tea concentrate; milk; and a whisper of honey.
+anxious,morning,Lincoln,NE,America/Chicago,40,fog,tea_floral,Ginger citrus tea,Black tea; ginger; lemon; and a touch of honey.
+angry|stressed|motivated,morning,Bakersfield,CA,America/Los_Angeles,62,thunderstorm,cold_brew_refresh,Spiced cacao espresso,Espresso; cacao; ancho chili; and smoked sea salt.
+restless|happy,morning,Cleveland,OH,America/New_York,54,rain,cold_brew_refresh,Bright lime cold brew,Cold brew; lime; and a touch of agave.
+tired|stressed,evening,Aurora,CO,America/Denver,56,clear,tea_floral,Cocoa hush steamer,Cocoa; brown sugar; cinnamon; and warm almond milk.
+sad,afternoon,Cincinnati,OH,America/New_York,58,clear,espresso_smooth,Honey oat latte,Espresso; oat milk; and a slow drizzle of honey.
+calm|bored,afternoon,Lincoln,NE,America/Chicago,51,fog,tea_floral,Coconut jasmine cooler,Jasmine tea; coconut water; and yuzu.
+bored|stressed|hopeful,afternoon,Philadelphia,PA,America/New_York,62,thunderstorm,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+bored|angry,afternoon,Anaheim,CA,America/Los_Angeles,61,showers,espresso_bold,Sparkling yuzu espresso,Espresso; yuzu soda; and mint.
+motivated|sad|stressed,afternoon,Riverside,CA,America/Los_Angeles,66,overcast,cold_brew_refresh,Iced oat americano,Espresso; water; and a splash of oat milk.
+numb|lonely|restless,afternoon,Santa Ana,CA,America/Los_Angeles,73,mixed conditions,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
+motivated,morning,Colorado Springs,CO,America/Denver,35,snow,house_blend,Straight shot macchiato,Espresso with a spoon of foam.
+anxious|gloomy|lonely,afternoon,Detroit,MI,America/Detroit,39,snow,espresso_smooth,Rosey oat latte,Espresso; oat milk; rose syrup; and cardamom.
+happy|bored,evening,Jacksonville,FL,America/New_York,67,mixed conditions,matcha_creamy,Golden matcha cloud,Matcha; oat milk; turmeric; and a salted honey cap.
+numb,afternoon,Greensboro,NC,America/New_York,71,thunderstorm,cacao_comfort,Cocoa oat,Cocoa; oat milk; and a hint of salt.
