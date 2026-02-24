@@ -146,6 +146,49 @@ body {
   gap: 8px;
 }
 
+.autocomplete {
+  position: relative;
+  width: 100%;
+}
+
+.suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: rgba(255, 250, 245, 0.98);
+  border: 1px solid rgba(45, 34, 29, 0.12);
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 12px 28px rgba(31, 23, 19, 0.18);
+  max-height: 280px;
+  overflow-y: auto;
+  z-index: 9999;
+  padding: 6px;
+  margin: 0;
+}
+
+.suggestions[aria-hidden="true"] {
+  display: none;
+}
+
+.suggestion-item {
+  padding: 10px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: var(--ink);
+  transition: background 0.1s ease;
+}
+
+.suggestion-item:hover,
+.suggestion-item[aria-selected="true"] {
+  background: rgba(165, 106, 67, 0.12);
+  outline: none;
+}
+
+/* make the form field a positioning context for absolute overlay */
+
+
 .form__hint {
   font-size: 0.8rem;
   color: var(--ink-soft);
@@ -209,12 +252,17 @@ label {
 select,
 input {
   padding: 14px 16px;
-  border-radius: 16px;
+  border-radius: 16px 16px 0 0;
   border: 1px solid rgba(45, 34, 29, 0.18);
   font-size: 1rem;
   font-family: inherit;
   background: rgba(255, 250, 245, 0.92);
   color: var(--ink);
+  width: 100%;
+}
+
+.autocomplete input {
+  border-radius: 16px;
 }
 
 select:focus,

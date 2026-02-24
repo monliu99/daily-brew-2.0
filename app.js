@@ -93,10 +93,44 @@ const cityList = [
   { name: "Durham", state: "NC", lat: 35.994, lon: -78.8986, timeZone: "America/New_York" },
   { name: "Chula Vista", state: "CA", lat: 32.6401, lon: -117.0842, timeZone: "America/Los_Angeles" },
   { name: "Fort Wayne", state: "IN", lat: 41.0793, lon: -85.1394, timeZone: "America/Indiana/Indianapolis" },
+  { name: "Long Beach", state: "CA", lat: 33.7701, lon: -118.1937, timeZone: "America/Los_Angeles" },
+  { name: "Irving", state: "TX", lat: 32.8143, lon: -96.9489, timeZone: "America/Chicago" },
+  { name: "Laredo", state: "TX", lat: 27.5305, lon: -99.5399, timeZone: "America/Chicago" },
+  { name: "Chandler", state: "AZ", lat: 33.3062, lon: -111.8413, timeZone: "America/Phoenix" },
+  { name: "Madison", state: "WI", lat: 43.0731, lon: -89.4012, timeZone: "America/Chicago" },
+  { name: "Huntsville", state: "AL", lat: 34.7304, lon: -86.5861, timeZone: "America/Chicago" },
+  { name: "Garland", state: "TX", lat: 32.9126, lon: -96.6345, timeZone: "America/Chicago" },
+  { name: "Hialeah", state: "FL", lat: 25.8576, lon: -80.2821, timeZone: "America/New_York" },
+  { name: "McKinney", state: "TX", lat: 33.1972, lon: -96.6397, timeZone: "America/Chicago" },
+  { name: "Winston-Salem", state: "NC", lat: 36.0999, lon: -80.2442, timeZone: "America/New_York" },
+  { name: "Brownsville", state: "TX", lat: 25.9017, lon: -97.4975, timeZone: "America/Chicago" },
+  { name: "Fontana", state: "CA", lat: 34.0922, lon: -117.4350, timeZone: "America/Los_Angeles" },
+  { name: "Santa Clarita", state: "CA", lat: 34.3917, lon: -118.4624, timeZone: "America/Los_Angeles" },
+  { name: "Rancho Cucamonga", state: "CA", lat: 34.1064, lon: -117.5931, timeZone: "America/Los_Angeles" },
+  { name: "Modesto", state: "CA", lat: 37.6688, lon: -120.9968, timeZone: "America/Los_Angeles" },
+  { name: "Fayetteville", state: "NC", lat: 35.0527, lon: -78.8785, timeZone: "America/New_York" },
+  { name: "Tallahassee", state: "FL", lat: 30.4383, lon: -84.2807, timeZone: "America/New_York" },
+  { name: "Huntington Beach", state: "CA", lat: 33.7597, lon: -117.9997, timeZone: "America/Los_Angeles" },
+  { name: "Fremont", state: "CA", lat: 37.5485, lon: -121.9886, timeZone: "America/Los_Angeles" },
+  { name: "Buffalo", state: "NY", lat: 42.8864, lon: -78.8784, timeZone: "America/New_York" },
+  { name: "Baton Rouge", state: "LA", lat: 30.4515, lon: -91.1871, timeZone: "America/Chicago" },
+  { name: "Jersey City", state: "NJ", lat: 40.7178, lon: -74.0431, timeZone: "America/New_York" },
+  { name: "Spokane", state: "WA", lat: 47.6587, lon: -117.4260, timeZone: "America/Los_Angeles" },
+  { name: "Aurora", state: "IL", lat: 41.7606, lon: -88.3201, timeZone: "America/Chicago" },
+  { name: "Scottsdale", state: "AZ", lat: 33.4942, lon: -111.9261, timeZone: "America/Phoenix" },
+  { name: "Glendale", state: "AZ", lat: 33.6390, lon: -112.1861, timeZone: "America/Phoenix" },
+  { name: "Garland", state: "TX", lat: 32.9126, lon: -96.6345, timeZone: "America/Chicago" },
+  { name: "Moreno Valley", state: "CA", lat: 33.7533, lon: -117.2292, timeZone: "America/Los_Angeles" },
+  { name: "Shreveport", state: "LA", lat: 32.5149, lon: -93.7373, timeZone: "America/Chicago" },
+  { name: "Providence", state: "RI", lat: 41.8240, lon: -71.4128, timeZone: "America/New_York" },
+  { name: "New Haven", state: "CT", lat: 41.3083, lon: -72.9279, timeZone: "America/New_York" },
 ];
 
 const cityIndex = new Map();
 let selectedCity = null;
+let suggestionMatches = [];
+let suggestionIndex = -1;
+const suggestionsEl = document.getElementById("city-list");
 const moodLabels = {
   happy: "Happy",
   tired: "Tired",
@@ -619,11 +653,64 @@ function renderRecommendation(recommendation) {
 function buildCityList() {
   cityList.forEach((city) => {
     const label = `${city.name}, ${city.state}`;
-    const option = document.createElement("option");
-    option.value = label;
-    cityListEl.appendChild(option);
     cityIndex.set(label.toLowerCase(), city);
   });
+}
+
+function renderSuggestions(matches) {
+  suggestionsEl.innerHTML = "";
+  if (!matches || !matches.length) {
+    suggestionsEl.setAttribute("aria-hidden", "true");
+    suggestionMatches = [];
+    suggestionIndex = -1;
+    return;
+  }
+
+  suggestionMatches = matches.slice(0, 8);
+  suggestionIndex = -1;
+  suggestionsEl.setAttribute("aria-hidden", "false");
+
+  suggestionMatches.forEach((city, idx) => {
+    const el = document.createElement("div");
+    el.className = "suggestion-item";
+    el.setAttribute("role", "option");
+    el.setAttribute("data-index", String(idx));
+    el.textContent = `${city.name}, ${city.state}`;
+    el.addEventListener("mousedown", (e) => {
+      e.preventDefault();
+      selectSuggestion(idx);
+    });
+    el.addEventListener("mouseenter", () => {
+      suggestionIndex = idx;
+      highlightSuggestion(suggestionIndex);
+    });
+    suggestionsEl.appendChild(el);
+  });
+}
+
+function highlightSuggestion(index) {
+  const children = Array.from(suggestionsEl.children);
+  children.forEach((child, i) => {
+    child.setAttribute("aria-selected", i === index ? "true" : "false");
+    if (i === index) {
+      child.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    }
+  });
+}
+
+function selectSuggestion(index) {
+  const city = suggestionMatches[index];
+  if (!city) return;
+  const label = `${city.name}, ${city.state}`;
+  locationInput.value = label;
+  selectedCity = city;
+  locationInput.setCustomValidity("");
+  fetchWeather(city);
+  updateMoment();
+  suggestionsEl.innerHTML = "";
+  suggestionsEl.setAttribute("aria-hidden", "true");
+  suggestionMatches = [];
+  suggestionIndex = -1;
 }
 
 function formatWeather(summary) {
@@ -679,21 +766,74 @@ function mapWeatherCode(code) {
 locationInput.addEventListener("input", () => {
   const value = sanitizeLocation(locationInput.value);
   locationInput.value = value;
-  const city = cityIndex.get(value.toLowerCase());
+  const valueLower = value.toLowerCase();
 
-  if (city) {
-    selectedCity = city;
+  // exact match selects immediately
+  const exact = cityIndex.get(valueLower);
+  if (exact) {
+    selectedCity = exact;
     locationInput.setCustomValidity("");
-    fetchWeather(city);
+    fetchWeather(exact);
+    updateMoment();
+    suggestionsEl.innerHTML = "";
+    suggestionsEl.setAttribute("aria-hidden", "true");
+    return;
+  }
+
+  if (!value) {
+    selectedCity = null;
+    latestWeather = null;
+    weatherEl.textContent = "Weather: --";
+    locationInput.setCustomValidity("Please select a city from the list.");
+    renderSuggestions([]);
     updateMoment();
     return;
   }
+
+  const matches = cityList.filter((city) => {
+    const label = `${city.name}, ${city.state}`.toLowerCase();
+    return label.startsWith(valueLower) || label.includes(` ${valueLower}`) || city.name.toLowerCase().includes(valueLower);
+  });
 
   selectedCity = null;
   latestWeather = null;
   weatherEl.textContent = "Weather: --";
   locationInput.setCustomValidity("Please select a city from the list.");
+  renderSuggestions(matches);
   updateMoment();
+});
+
+locationInput.addEventListener("keydown", (e) => {
+  if (!suggestionMatches || !suggestionMatches.length) return;
+  if (e.key === "ArrowDown") {
+    suggestionIndex = Math.min(suggestionMatches.length - 1, suggestionIndex + 1);
+    highlightSuggestion(suggestionIndex);
+    e.preventDefault();
+  } else if (e.key === "ArrowUp") {
+    suggestionIndex = Math.max(0, suggestionIndex - 1);
+    highlightSuggestion(suggestionIndex);
+    e.preventDefault();
+  } else if (e.key === "Enter") {
+    if (suggestionIndex >= 0) {
+      selectSuggestion(suggestionIndex);
+      e.preventDefault();
+    }
+  } else if (e.key === "Escape") {
+    suggestionsEl.innerHTML = "";
+    suggestionsEl.setAttribute("aria-hidden", "true");
+    suggestionMatches = [];
+    suggestionIndex = -1;
+  }
+});
+
+locationInput.addEventListener("blur", () => {
+  // hide suggestions after a short delay to allow click
+  setTimeout(() => {
+    suggestionsEl.innerHTML = "";
+    suggestionsEl.setAttribute("aria-hidden", "true");
+    suggestionMatches = [];
+    suggestionIndex = -1;
+  }, 120);
 });
 
 moodPicker.addEventListener("click", (event) => {

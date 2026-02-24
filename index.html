@@ -53,16 +53,19 @@
           </div>
           <div class="form__field">
             <label for="location">Location</label>
-            <input
-              id="location"
-              name="location"
-              type="text"
-              placeholder="Select a city from the list"
-              autocomplete="off"
-              list="city-list"
-              required
-            />
-            <datalist id="city-list"></datalist>
+            <div class="autocomplete">
+              <input
+                id="location"
+                name="location"
+                type="text"
+                placeholder="Type your city name"
+                autocomplete="off"
+                required
+                aria-autocomplete="list"
+                aria-haspopup="listbox"
+              />
+              <div id="city-list" class="suggestions" role="listbox" aria-hidden="true"></div>
+            </div>
             <div class="weather-panel">
               <div class="weather" id="weather">Weather: --</div>
               <div class="weather" id="local-time">Local time: --</div>
