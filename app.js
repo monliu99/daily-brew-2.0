@@ -186,7 +186,7 @@ const API_KEY_STORAGE_KEY = "brew_api_key";
 const API_PROVIDERS = {
   worker: {
     name: "Cloudflare Worker (Recommended)",
-    url: "https://daily-brew-proxy.moliu0709.workers.dev/",
+    url: "https://daily-brew-api.moliu0709.workers.dev/",
     model: "claude-3-5-haiku-20241022",
     headers: {
       "content-type": "application/json"
