@@ -10,6 +10,12 @@ const details = document.getElementById("details");
 const momentEl = document.getElementById("local-time");
 const weatherEl = document.getElementById("weather");
 
+// Loading and error elements
+const resultLoading = document.getElementById("result-loading");
+const resultContent = document.getElementById("result-content");
+const resultError = document.getElementById("result-error");
+const loadingText = document.getElementById("loading-text");
+
 const WEATHER_UNITS = "imperial";
 const TEMP_UNIT = WEATHER_UNITS === "metric" ? "C" : "F";
 
@@ -172,6 +178,11 @@ let modelReady = false;
 let model = null;
 let profileLookup = new Map();
 
+// Yale LLM Router API configuration
+const YALE_API_URL = "https://llm.kyle.pub/s/zai-coding/v1/messages";
+const API_KEY_STORAGE_KEY = "yale_llm_api_key";
+let apiKey = localStorage.getItem(API_KEY_STORAGE_KEY) || "";
+
 function updateMoodHint(customHint) {
   const baseHint = customHint || (selectedMoods.size >= 3 ? "Mood limit reached (3)." : "Select up to 3 moods.");
   moodHint.textContent = baseHint;
@@ -243,6 +254,98 @@ function getRegionFromTimeZone(timeZone) {
   if (timeZone.includes("Anchorage")) return "alaska";
   if (timeZone.includes("Honolulu")) return "hawaii";
   return "eastern";
+}
+
+// API Key Management
+function saveApiKey(key) {
+  apiKey = key.trim();
+  if (apiKey) {
+    localStorage.setItem(API_KEY_STORAGE_KEY, apiKey);
+  } else {
+    localStorage.removeItem(API_KEY_STORAGE_KEY);
+  }
+}
+
+function clearApiKey() {
+  apiKey = "";
+  localStorage.removeItem(API_KEY_STORAGE_KEY);
+}
+
+function hasApiKey() {
+  return apiKey.length > 0;
+}
+
+// Yale LLM Router API Integration
+async function getAIRecommendation(moods, weather, temp, time, location) {
+  if (!hasApiKey()) {
+    throw new Error("No API key configured");
+  }
+
+  const moodText = moods.join(", ");
+  const prompt = `I'm feeling ${moodText}. It's ${time} in ${location}, ${weather} and ${temp}°F.
+
+Suggest ONE coffee or tea drink that fits this moment. Respond ONLY in valid JSON format with these exact keys:
+{
+  "name": "Drink name",
+  "description": "Brief description in one sentence",
+  "recipe": ["step 1", "step 2", "step 3"],
+  "why": "Why this drink fits the moment (one sentence)"
+}`;
+
+  const response = await fetch(YALE_API_URL, {
+    method: "POST",
+    headers: {
+      "x-api-key": apiKey,
+      "anthropic-version": "2023-06-01",
+      "content-type": "application/json"
+    },
+    body: JSON.stringify({
+      model: "glm-5.1",
+      max_tokens: 500,
+      messages: [{
+        role: "user",
+        content: prompt
+      }]
+    })
+  });
+
+  if (!response.ok) {
+    const errorData = await response.json().catch(() => ({}));
+    if (response.status === 401) {
+      throw new Error("Invalid API key. Please check your settings.");
+    } else if (response.status === 403) {
+      throw new Error("API key disabled or expired. Please get a new key from llm.kyle.pub/keys");
+    } else if (response.status === 429) {
+      throw new Error("Rate limit exceeded. Please try again later.");
+    }
+    throw new Error(errorData.error?.message || `API error: ${response.status}`);
+  }
+
+  const data = await response.json();
+
+  if (data.error) {
+    throw new Error(data.error.message || "API returned an error");
+  }
+
+  // Extract text content from Anthropic-style response
+  const textContent = data.content?.[0]?.text;
+  if (!textContent) {
+    throw new Error("No content in API response");
+  }
+
+  // Parse JSON from the text response
+  try {
+    const parsed = JSON.parse(textContent);
+    return {
+      title: parsed.name || "AI Recommended Drink",
+      description: parsed.description || "",
+      details: parsed.recipe || [],
+      whyThisDrink: parsed.why || ""
+    };
+  } catch (parseError) {
+    // Fallback: try to extract info from natural language
+    throw new Error("Could not parse AI response. Please try again.");
+  }
 }
 
 function buildFeatureVector({ moods, timeSegment, weather, tempValue, timeZone }) {
@@ -568,11 +671,29 @@ function buildWhyThisDrink({ moods, timeSegment, weatherCondition, tempValue, ti
   return `Why this drink: With your ${moodText} mood, ${weatherText}, and ${tempBucket} temperatures, this choice leans toward ${tempText} ${timeText}.`;
 }
 
-function recommendDrink(moods, timeZone) {
+async function recommendDrink(moods, timeZone) {
   const moodList = moods.length ? moods : ["calm"];
   const timeSegment = getTimeSegment(timeZone);
   const weatherCondition = latestWeather?.condition || "clear";
   const tempValue = latestWeather?.tempValue ?? 65;
+
+  // Try AI recommendation first if API key is available
+  if (hasApiKey()) {
+    try {
+      return await getAIRecommendation(
+        moodList,
+        weatherCondition,
+        tempValue,
+        timeSegment,
+        selectedCity?.name || "your location"
+      );
+    } catch (error) {
+      console.warn("AI recommendation failed, falling back to ML:", error.message);
+      // Fall through to ML model
+    }
+  }
+
+  // Fallback to ML model
   const modelFeatures = buildFeatureVector({
     moods: moodList,
     timeSegment,
@@ -856,7 +977,7 @@ moodPicker.addEventListener("click", (event) => {
   updateMoodButtons();
 });
 
-form.addEventListener("submit", (event) => {
+form.addEventListener("submit", async (event) => {
   event.preventDefault();
   const moods = getSelectedMoods();
   const location = sanitizeLocation(locationInput.value);
@@ -873,11 +994,26 @@ form.addEventListener("submit", (event) => {
     return;
   }
 
-  const recommendation = recommendDrink(moods, selectedCity?.timeZone);
-  renderRecommendation(recommendation);
-  result.classList.remove("animate-in");
-  void result.offsetWidth;
-  result.classList.add("animate-in");
+  // Show loading state
+  resultLoading.hidden = false;
+  resultContent.hidden = true;
+  resultError.hidden = true;
+  loadingText.textContent = hasApiKey() ? "Brewing with AI..." : "Brewing your drink...";
+
+  try {
+    const recommendation = await recommendDrink(moods, selectedCity?.timeZone);
+    renderRecommendation(recommendation);
+    resultContent.hidden = false;
+    result.classList.remove("animate-in");
+    void result.offsetWidth;
+    result.classList.add("animate-in");
+  } catch (error) {
+    console.error("Recommendation error:", error);
+    resultError.textContent = error.message || "Failed to get recommendation. Please try again.";
+    resultError.hidden = false;
+  } finally {
+    resultLoading.hidden = true;
+  }
 });
 
 function updateMoment() {
@@ -906,6 +1042,84 @@ function updateMoodButtons() {
     : "Select up to 3 moods.";
   updateMoodHint(moodHint.textContent);
 }
+
+// Settings Modal
+const settingsBtn = document.getElementById("settings-btn");
+const settingsModal = document.getElementById("settings-modal");
+const settingsClose = document.querySelector(".modal__close");
+const settingsBackdrop = document.querySelector(".modal__backdrop");
+const settingsSave = document.getElementById("settings-save");
+const settingsCancel = document.getElementById("settings-cancel");
+const apiKeyInput = document.getElementById("api-key-input");
+const settingsStatus = document.getElementById("settings-status");
+
+function openSettings() {
+  apiKeyInput.value = apiKey;
+  settingsStatus.textContent = "";
+  settingsStatus.className = "settings__status";
+  settingsModal.setAttribute("aria-hidden", "false");
+  apiKeyInput.focus();
+}
+
+function closeSettings() {
+  settingsModal.setAttribute("aria-hidden", "true");
+}
+
+async function saveSettings() {
+  const newKey = apiKeyInput.value.trim();
+  settingsStatus.textContent = "Saving...";
+  settingsStatus.className = "settings__status settings__status--info";
+
+  saveApiKey(newKey);
+
+  // Test the new key
+  if (newKey) {
+    try {
+      const response = await fetch(YALE_API_URL, {
+        method: "POST",
+        headers: {
+          "x-api-key": newKey,
+          "anthropic-version": "2023-06-01",
+          "content-type": "application/json"
+        },
+        body: JSON.stringify({
+          model: "glm-5.1",
+          max_tokens: 10,
+          messages: [{role: "user", content: "Hi"}]
+        })
+      });
+
+      if (response.ok) {
+        settingsStatus.textContent = "API key saved and validated!";
+        settingsStatus.className = "settings__status settings__status--success";
+        setTimeout(closeSettings, 1500);
+      } else {
+        settingsStatus.textContent = "Invalid API key. Please check and try again.";
+        settingsStatus.className = "settings__status settings__status--error";
+      }
+    } catch (error) {
+      settingsStatus.textContent = "Failed to validate API key: " + error.message;
+      settingsStatus.className = "settings__status settings__status--error";
+    }
+  } else {
+    settingsStatus.textContent = "API key removed. Using ML model.";
+    settingsStatus.className = "settings__status settings__status--success";
+    setTimeout(closeSettings, 1500);
+  }
+}
+
+settingsBtn.addEventListener("click", openSettings);
+settingsClose.addEventListener("click", closeSettings);
+settingsBackdrop.addEventListener("click", closeSettings);
+settingsCancel.addEventListener("click", closeSettings);
+settingsSave.addEventListener("click", saveSettings);
+
+// Close modal on Escape key
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && settingsModal.getAttribute("aria-hidden") === "false") {
+    closeSettings();
+  }
+});
 
 buildCityList();
 updateMoodButtons();

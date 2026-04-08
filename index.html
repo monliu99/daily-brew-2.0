@@ -76,17 +76,62 @@
 
         <section class="result" id="result" aria-live="polite">
           <div class="result__badge">Recommendation</div>
-          <h2 class="result__title">Ready when you are.</h2>
-          <p class="result__description">
-            Share your mood and location to get a drink tailored to your moment.
-          </p>
-          <div class="result__details" id="details"></div>
+          <div id="result-loading" class="result__loading" hidden>
+            <div class="spinner"></div>
+            <p id="loading-text">Brewing your drink...</p>
+          </div>
+          <div id="result-content">
+            <h2 class="result__title">Ready when you are.</h2>
+            <p class="result__description">
+              Share your mood and location to get a drink tailored to your moment.
+            </p>
+            <div class="result__details" id="details"></div>
+          </div>
+          <div id="result-error" class="result__error" hidden></div>
         </section>
       </main>
 
       <footer class="footer">
         <span>© 2026 Mo Liu — all rights reserved</span>
+        <button type="button" id="settings-btn" class="settings-btn" aria-label="Settings">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="10" cy="10" r="3"></circle>
+            <path d="M10 2v2m0 12v2m8-8h-2M4 10H2m15.07-7.07l-1.414 1.414M5.34 14.66l-1.414 1.414m0-8.484l1.414 1.414M13.66 14.66l1.414 1.414"></path>
+          </svg>
+        </button>
       </footer>
+
+      <!-- Settings Modal -->
+      <div id="settings-modal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="settings-title">
+        <div class="modal__backdrop"></div>
+        <div class="modal__content">
+          <div class="modal__header">
+            <h2 id="settings-title" class="modal__title">Settings</h2>
+            <button type="button" class="modal__close" aria-label="Close settings">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4l12 12m0-12l-12 12"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="modal__body">
+            <div class="form__field">
+              <label for="api-key-input">Yale LLM Router API Key</label>
+              <input
+                id="api-key-input"
+                type="password"
+                placeholder="Enter your API key from llm.kyle.pub"
+                autocomplete="off"
+              />
+              <div class="form__hint">Your key is stored locally in your browser and never sent to any server except Yale's LLM router.</div>
+            </div>
+            <div class="settings__status" id="settings-status"></div>
+          </div>
+          <div class="modal__footer">
+            <button type="button" id="settings-save" class="btn btn--primary">Save</button>
+            <button type="button" id="settings-cancel" class="btn btn--secondary">Cancel</button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="app.js"></script>
