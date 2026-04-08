@@ -184,8 +184,16 @@ const API_KEY_STORAGE_KEY = "brew_api_key";
 
 // Support multiple API providers
 const API_PROVIDERS = {
+  worker: {
+    name: "Cloudflare Worker (Recommended)",
+    url: "https://daily-brew-proxy.moliu0709.workers.dev/",
+    model: "claude-3-5-haiku-20241022",
+    headers: {
+      "content-type": "application/json"
+    }
+  },
   anthropic: {
-    name: "Anthropic (Claude)",
+    name: "Anthropic (Direct - May Not Work)",
     url: "https://api.anthropic.com/v1/messages",
     model: "claude-3-5-haiku-20241022",
     headers: {
@@ -205,7 +213,7 @@ const API_PROVIDERS = {
   }
 };
 
-let apiProvider = localStorage.getItem(API_PROVIDER_KEY) || "anthropic";
+let apiProvider = localStorage.getItem(API_PROVIDER_KEY) || "worker";
 let apiKey = localStorage.getItem(API_KEY_STORAGE_KEY) || "";
 
 function updateMoodHint(customHint) {

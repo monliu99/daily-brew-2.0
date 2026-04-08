@@ -117,10 +117,11 @@
             <div class="form__field">
               <label for="api-provider-input">AI Provider</label>
               <select id="api-provider-input">
-                <option value="anthropic">Anthropic (Claude)</option>
+                <option value="worker">Cloudflare Worker (Recommended)</option>
+                <option value="anthropic">Anthropic (Direct - May Not Work)</option>
                 <option value="yale">Yale LLM Router</option>
               </select>
-              <div class="form__hint">Choose your AI provider. Anthropic works directly in browsers.</div>
+              <div class="form__hint">Choose Cloudflare Worker for best results. Requires Anthropic API key.</div>
             </div>
             <div class="form__field">
               <label for="api-key-input">API Key</label>
