@@ -179,41 +179,10 @@ let model = null;
 let profileLookup = new Map();
 
 // API Configuration
-const API_PROVIDER_KEY = "brew_api_provider";
 const API_KEY_STORAGE_KEY = "brew_api_key";
+const WORKER_URL = "https://daily-brew-api.moliu0709.workers.dev/";
+const MODEL = "claude-3-haiku-20240307"; // Stable model with good API key compatibility
 
-// Support multiple API providers
-const API_PROVIDERS = {
-  worker: {
-    name: "Cloudflare Worker (Recommended)",
-    url: "https://daily-brew-api.moliu0709.workers.dev/",
-    model: "claude-3-5-haiku-20241022",
-    headers: {
-      "content-type": "application/json"
-    }
-  },
-  anthropic: {
-    name: "Anthropic (Direct - May Not Work)",
-    url: "https://api.anthropic.com/v1/messages",
-    model: "claude-3-5-haiku-20241022",
-    headers: {
-      "anthropic-version": "2023-06-01",
-      "content-type": "application/json"
-    }
-  },
-  yale: {
-    name: "Yale LLM Router",
-    url: "https://llm.kyle.pub/s/zai-coding/v1/messages",
-    model: "glm-5.1",
-    corsProxy: "https://corsproxy.io/?",
-    headers: {
-      "anthropic-version": "2023-06-01",
-      "content-type": "application/json"
-    }
-  }
-};
-
-let apiProvider = localStorage.getItem(API_PROVIDER_KEY) || "worker";
 let apiKey = localStorage.getItem(API_KEY_STORAGE_KEY) || "";
 
 function updateMoodHint(customHint) {
@@ -308,24 +277,12 @@ function hasApiKey() {
   return apiKey.length > 0;
 }
 
-function getApiProvider() {
-  return apiProvider;
-}
-
-function setApiProvider(provider) {
-  if (API_PROVIDERS[provider]) {
-    apiProvider = provider;
-    localStorage.setItem(API_PROVIDER_KEY, provider);
-  }
-}
-
-// AI API Integration (supports Anthropic and Yale LLM Router)
+// AI API Integration
 async function getAIRecommendation(moods, weather, temp, time, location) {
   if (!hasApiKey()) {
     throw new Error("No API key configured");
   }
 
-  const provider = API_PROVIDERS[apiProvider];
   const moodText = moods.join(", ");
   const prompt = `I'm feeling ${moodText}. It's ${time} in ${location}, ${weather} and ${temp}°F.
 
@@ -337,28 +294,14 @@ Suggest ONE coffee or tea drink that fits this moment. Respond ONLY in valid JSO
   "why": "Why this drink fits the moment (one sentence)"
 }`;
 
-  // Build the request URL (use CORS proxy for Yale)
-  const requestUrl = provider.corsProxy
-    ? provider.corsProxy + encodeURIComponent(provider.url)
-    : provider.url;
-
-  // Build headers
-  const headers = {
-    ...provider.headers,
-  };
-
-  // Add API key based on provider
-  if (apiProvider === "anthropic") {
-    headers["x-api-key"] = apiKey;
-  } else {
-    headers["x-api-key"] = apiKey;
-  }
-
-  const response = await fetch(requestUrl, {
+  const response = await fetch(WORKER_URL, {
     method: "POST",
-    headers: headers,
+    headers: {
+      "x-api-key": apiKey,
+      "content-type": "application/json"
+    },
     body: JSON.stringify({
-      model: provider.model,
+      model: MODEL,
       max_tokens: 500,
       messages: [{
         role: "user",
@@ -1109,11 +1052,9 @@ const settingsBackdrop = document.querySelector(".modal__backdrop");
 const settingsSave = document.getElementById("settings-save");
 const settingsCancel = document.getElementById("settings-cancel");
 const apiKeyInput = document.getElementById("api-key-input");
-const apiProviderInput = document.getElementById("api-provider-input");
 const settingsStatus = document.getElementById("settings-status");
 
 function openSettings() {
-  apiProviderInput.value = apiProvider;
   apiKeyInput.value = apiKey;
   settingsStatus.textContent = "";
   settingsStatus.className = "settings__status";
@@ -1126,39 +1067,30 @@ function closeSettings() {
 }
 
 async function saveSettings() {
-  const newProvider = apiProviderInput.value;
   const newKey = apiKeyInput.value.trim();
   settingsStatus.textContent = "Saving...";
   settingsStatus.className = "settings__status settings__status--info";
 
-  setApiProvider(newProvider);
   saveApiKey(newKey);
 
   // Test the new key
   if (newKey) {
     try {
-      const provider = API_PROVIDERS[newProvider];
-      const requestUrl = provider.corsProxy
-        ? provider.corsProxy + encodeURIComponent(provider.url)
-        : provider.url;
-
-      const headers = {
-        ...provider.headers,
-        "x-api-key": newKey
-      };
-
-      const response = await fetch(requestUrl, {
+      const response = await fetch(WORKER_URL, {
         method: "POST",
-        headers: headers,
+        headers: {
+          "x-api-key": newKey,
+          "content-type": "application/json"
+        },
         body: JSON.stringify({
-          model: provider.model,
+          model: MODEL,
           max_tokens: 10,
           messages: [{role: "user", content: "Hi"}]
         })
       });
 
       if (response.ok) {
-        settingsStatus.textContent = `API key saved and validated for ${provider.name}!`;
+        settingsStatus.textContent = "API key saved and validated!";
         settingsStatus.className = "settings__status settings__status--success";
         setTimeout(closeSettings, 1500);
       } else {

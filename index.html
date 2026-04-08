@@ -115,23 +115,14 @@
           </div>
           <div class="modal__body">
             <div class="form__field">
-              <label for="api-provider-input">AI Provider</label>
-              <select id="api-provider-input">
-                <option value="worker">Cloudflare Worker (Recommended)</option>
-                <option value="anthropic">Anthropic (Direct - May Not Work)</option>
-                <option value="yale">Yale LLM Router</option>
-              </select>
-              <div class="form__hint">Choose Cloudflare Worker for best results. Requires Anthropic API key.</div>
-            </div>
-            <div class="form__field">
-              <label for="api-key-input">API Key</label>
+              <label for="api-key-input">Anthropic API Key</label>
               <input
                 id="api-key-input"
                 type="password"
-                placeholder="Enter your API key"
+                placeholder="Enter your Anthropic API key (sk-ant-...)"
                 autocomplete="off"
               />
-              <div class="form__hint">Your key is stored locally in your browser.</div>
+              <div class="form__hint">Your key is stored locally in your browser and sent via your Cloudflare Worker proxy.</div>
             </div>
             <div class="settings__status" id="settings-status"></div>
           </div>
