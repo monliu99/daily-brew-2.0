@@ -179,7 +179,9 @@ let model = null;
 let profileLookup = new Map();
 
 // Yale LLM Router API configuration
+// Using CORS proxy because the router doesn't send CORS headers for browsers
 const YALE_API_URL = "https://llm.kyle.pub/s/zai-coding/v1/messages";
+const CORS_PROXY = "https://corsproxy.io/?";
 const API_KEY_STORAGE_KEY = "yale_llm_api_key";
 let apiKey = localStorage.getItem(API_KEY_STORAGE_KEY) || "";
 
@@ -292,7 +294,10 @@ Suggest ONE coffee or tea drink that fits this moment. Respond ONLY in valid JSO
   "why": "Why this drink fits the moment (one sentence)"
 }`;
 
-  const response = await fetch(YALE_API_URL, {
+  // Use CORS proxy to bypass browser CORS restrictions
+  const proxyUrl = CORS_PROXY + encodeURIComponent(YALE_API_URL);
+
+  const response = await fetch(proxyUrl, {
     method: "POST",
     headers: {
       "x-api-key": apiKey,
@@ -1075,7 +1080,8 @@ async function saveSettings() {
   // Test the new key
   if (newKey) {
     try {
-      const response = await fetch(YALE_API_URL, {
+      const proxyUrl = CORS_PROXY + encodeURIComponent(YALE_API_URL);
+      const response = await fetch(proxyUrl, {
         method: "POST",
         headers: {
           "x-api-key": newKey,
