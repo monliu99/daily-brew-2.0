@@ -181,7 +181,7 @@ let profileLookup = new Map();
 // API Configuration
 const API_KEY_STORAGE_KEY = "brew_api_key";
 const WORKER_URL = "https://daily-brew-api.moliu0709.workers.dev/";
-const MODEL = "claude-3-haiku-20240307"; // Stable model with good API key compatibility
+const MODEL = "claude-3-5-haiku-20241022"; // Latest Haiku model
 
 let apiKey = localStorage.getItem(API_KEY_STORAGE_KEY) || "";
 
