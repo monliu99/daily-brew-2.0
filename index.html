@@ -115,14 +115,22 @@
           </div>
           <div class="modal__body">
             <div class="form__field">
-              <label for="api-key-input">Yale LLM Router API Key</label>
+              <label for="api-provider-input">AI Provider</label>
+              <select id="api-provider-input">
+                <option value="anthropic">Anthropic (Claude)</option>
+                <option value="yale">Yale LLM Router</option>
+              </select>
+              <div class="form__hint">Choose your AI provider. Anthropic works directly in browsers.</div>
+            </div>
+            <div class="form__field">
+              <label for="api-key-input">API Key</label>
               <input
                 id="api-key-input"
                 type="password"
-                placeholder="Enter your API key from llm.kyle.pub"
+                placeholder="Enter your API key"
                 autocomplete="off"
               />
-              <div class="form__hint">Your key is stored locally in your browser and never sent to any server except Yale's LLM router.</div>
+              <div class="form__hint">Your key is stored locally in your browser.</div>
             </div>
             <div class="settings__status" id="settings-status"></div>
           </div>

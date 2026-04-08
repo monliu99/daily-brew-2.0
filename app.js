@@ -178,11 +178,34 @@ let modelReady = false;
 let model = null;
 let profileLookup = new Map();
 
-// Yale LLM Router API configuration
-// Using CORS proxy because the router doesn't send CORS headers for browsers
-const YALE_API_URL = "https://llm.kyle.pub/s/zai-coding/v1/messages";
-const CORS_PROXY = "https://corsproxy.io/?";
-const API_KEY_STORAGE_KEY = "yale_llm_api_key";
+// API Configuration
+const API_PROVIDER_KEY = "brew_api_provider";
+const API_KEY_STORAGE_KEY = "brew_api_key";
+
+// Support multiple API providers
+const API_PROVIDERS = {
+  anthropic: {
+    name: "Anthropic (Claude)",
+    url: "https://api.anthropic.com/v1/messages",
+    model: "claude-3-5-haiku-20241022",
+    headers: {
+      "anthropic-version": "2023-06-01",
+      "content-type": "application/json"
+    }
+  },
+  yale: {
+    name: "Yale LLM Router",
+    url: "https://llm.kyle.pub/s/zai-coding/v1/messages",
+    model: "glm-5.1",
+    corsProxy: "https://corsproxy.io/?",
+    headers: {
+      "anthropic-version": "2023-06-01",
+      "content-type": "application/json"
+    }
+  }
+};
+
+let apiProvider = localStorage.getItem(API_PROVIDER_KEY) || "anthropic";
 let apiKey = localStorage.getItem(API_KEY_STORAGE_KEY) || "";
 
 function updateMoodHint(customHint) {
@@ -277,12 +300,24 @@ function hasApiKey() {
   return apiKey.length > 0;
 }
 
-// Yale LLM Router API Integration
+function getApiProvider() {
+  return apiProvider;
+}
+
+function setApiProvider(provider) {
+  if (API_PROVIDERS[provider]) {
+    apiProvider = provider;
+    localStorage.setItem(API_PROVIDER_KEY, provider);
+  }
+}
+
+// AI API Integration (supports Anthropic and Yale LLM Router)
 async function getAIRecommendation(moods, weather, temp, time, location) {
   if (!hasApiKey()) {
     throw new Error("No API key configured");
   }
 
+  const provider = API_PROVIDERS[apiProvider];
   const moodText = moods.join(", ");
   const prompt = `I'm feeling ${moodText}. It's ${time} in ${location}, ${weather} and ${temp}°F.
 
@@ -294,18 +329,28 @@ Suggest ONE coffee or tea drink that fits this moment. Respond ONLY in valid JSO
   "why": "Why this drink fits the moment (one sentence)"
 }`;
 
-  // Use CORS proxy to bypass browser CORS restrictions
-  const proxyUrl = CORS_PROXY + encodeURIComponent(YALE_API_URL);
+  // Build the request URL (use CORS proxy for Yale)
+  const requestUrl = provider.corsProxy
+    ? provider.corsProxy + encodeURIComponent(provider.url)
+    : provider.url;
 
-  const response = await fetch(proxyUrl, {
+  // Build headers
+  const headers = {
+    ...provider.headers,
+  };
+
+  // Add API key based on provider
+  if (apiProvider === "anthropic") {
+    headers["x-api-key"] = apiKey;
+  } else {
+    headers["x-api-key"] = apiKey;
+  }
+
+  const response = await fetch(requestUrl, {
     method: "POST",
-    headers: {
-      "x-api-key": apiKey,
-      "anthropic-version": "2023-06-01",
-      "content-type": "application/json"
-    },
+    headers: headers,
     body: JSON.stringify({
-      model: "glm-5.1",
+      model: provider.model,
       max_tokens: 500,
       messages: [{
         role: "user",
@@ -319,7 +364,7 @@ Suggest ONE coffee or tea drink that fits this moment. Respond ONLY in valid JSO
     if (response.status === 401) {
       throw new Error("Invalid API key. Please check your settings.");
     } else if (response.status === 403) {
-      throw new Error("API key disabled or expired. Please get a new key from llm.kyle.pub/keys");
+      throw new Error("API key disabled or expired.");
     } else if (response.status === 429) {
       throw new Error("Rate limit exceeded. Please try again later.");
     }
@@ -1056,9 +1101,11 @@ const settingsBackdrop = document.querySelector(".modal__backdrop");
 const settingsSave = document.getElementById("settings-save");
 const settingsCancel = document.getElementById("settings-cancel");
 const apiKeyInput = document.getElementById("api-key-input");
+const apiProviderInput = document.getElementById("api-provider-input");
 const settingsStatus = document.getElementById("settings-status");
 
 function openSettings() {
+  apiProviderInput.value = apiProvider;
   apiKeyInput.value = apiKey;
   settingsStatus.textContent = "";
   settingsStatus.className = "settings__status";
@@ -1071,36 +1118,44 @@ function closeSettings() {
 }
 
 async function saveSettings() {
+  const newProvider = apiProviderInput.value;
   const newKey = apiKeyInput.value.trim();
   settingsStatus.textContent = "Saving...";
   settingsStatus.className = "settings__status settings__status--info";
 
+  setApiProvider(newProvider);
   saveApiKey(newKey);
 
   // Test the new key
   if (newKey) {
     try {
-      const proxyUrl = CORS_PROXY + encodeURIComponent(YALE_API_URL);
-      const response = await fetch(proxyUrl, {
+      const provider = API_PROVIDERS[newProvider];
+      const requestUrl = provider.corsProxy
+        ? provider.corsProxy + encodeURIComponent(provider.url)
+        : provider.url;
+
+      const headers = {
+        ...provider.headers,
+        "x-api-key": newKey
+      };
+
+      const response = await fetch(requestUrl, {
         method: "POST",
-        headers: {
-          "x-api-key": newKey,
-          "anthropic-version": "2023-06-01",
-          "content-type": "application/json"
-        },
+        headers: headers,
         body: JSON.stringify({
-          model: "glm-5.1",
+          model: provider.model,
           max_tokens: 10,
           messages: [{role: "user", content: "Hi"}]
         })
       });
 
       if (response.ok) {
-        settingsStatus.textContent = "API key saved and validated!";
+        settingsStatus.textContent = `API key saved and validated for ${provider.name}!`;
         settingsStatus.className = "settings__status settings__status--success";
         setTimeout(closeSettings, 1500);
       } else {
-        settingsStatus.textContent = "Invalid API key. Please check and try again.";
+        const errorData = await response.json().catch(() => ({}));
+        settingsStatus.textContent = "Invalid API key: " + (errorData.error?.message || response.status);
         settingsStatus.className = "settings__status settings__status--error";
       }
     } catch (error) {
