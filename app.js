@@ -180,7 +180,7 @@ let profileLookup = new Map();
 
 // API Configuration
 const API_KEY_STORAGE_KEY = "brew_api_key";
-const WORKER_URL = "https://daily-brew-api.moliu0709.workers.dev";
+const ANTHROPIC_API_URL = "https://api.anthropic.com/v1/messages";
 const MODEL = "claude-3-5-haiku-20241022"; // Compatible with newer API key format
 
 let apiKey = localStorage.getItem(API_KEY_STORAGE_KEY) || "";
@@ -294,10 +294,11 @@ Suggest ONE coffee or tea drink that fits this moment. Respond ONLY in valid JSO
   "why": "Why this drink fits the moment (one sentence)"
 }`;
 
-  const response = await fetch(WORKER_URL, {
+  const response = await fetch(ANTHROPIC_API_URL, {
     method: "POST",
     headers: {
       "x-api-key": apiKey,
+      "anthropic-version": "2023-06-01",
       "content-type": "application/json"
     },
     body: JSON.stringify({
@@ -1068,18 +1069,18 @@ function closeSettings() {
 
 async function saveSettings() {
   const newKey = apiKeyInput.value.trim();
+  const previousKey = apiKey;
   settingsStatus.textContent = "Saving...";
   settingsStatus.className = "settings__status settings__status--info";
 
-  saveApiKey(newKey);
-
-  // Test the new key
+  // Test the new key before saving
   if (newKey) {
     try {
-      const response = await fetch(WORKER_URL, {
+      const response = await fetch(ANTHROPIC_API_URL, {
         method: "POST",
         headers: {
           "x-api-key": newKey,
+          "anthropic-version": "2023-06-01",
           "content-type": "application/json"
         },
         body: JSON.stringify({
@@ -1090,19 +1091,23 @@ async function saveSettings() {
       });
 
       if (response.ok) {
+        saveApiKey(newKey);
         settingsStatus.textContent = "API key saved and validated!";
         settingsStatus.className = "settings__status settings__status--success";
         setTimeout(closeSettings, 1500);
       } else {
+        saveApiKey(previousKey);
         const errorData = await response.json().catch(() => ({}));
         settingsStatus.textContent = "Invalid API key: " + (errorData.error?.message || response.status);
         settingsStatus.className = "settings__status settings__status--error";
       }
     } catch (error) {
+      saveApiKey(previousKey);
       settingsStatus.textContent = "Failed to validate API key: " + error.message;
       settingsStatus.className = "settings__status settings__status--error";
     }
   } else {
+    saveApiKey(newKey);
     settingsStatus.textContent = "API key removed. Using ML model.";
     settingsStatus.className = "settings__status settings__status--success";
     setTimeout(closeSettings, 1500);
