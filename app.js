@@ -180,7 +180,7 @@ let profileLookup = new Map();
 
 // API Configuration
 const API_KEY_STORAGE_KEY = "brew_api_key";
-const ANTHROPIC_API_URL = "https://api.anthropic.com/v1/messages";
+const WORKER_URL = "https://daily-brew-api.moliu0709.workers.dev";
 const MODEL = "claude-3-5-haiku-20241022"; // Compatible with newer API key format
 
 let apiKey = localStorage.getItem(API_KEY_STORAGE_KEY) || "";
@@ -294,7 +294,7 @@ Suggest ONE coffee or tea drink that fits this moment. Respond ONLY in valid JSO
   "why": "Why this drink fits the moment (one sentence)"
 }`;
 
-  const response = await fetch(ANTHROPIC_API_URL, {
+  const response = await fetch(WORKER_URL, {
     method: "POST",
     headers: {
       "x-api-key": apiKey,
@@ -1076,7 +1076,7 @@ async function saveSettings() {
   // Test the new key before saving
   if (newKey) {
     try {
-      const response = await fetch(ANTHROPIC_API_URL, {
+      const response = await fetch(WORKER_URL, {
         method: "POST",
         headers: {
           "x-api-key": newKey,
