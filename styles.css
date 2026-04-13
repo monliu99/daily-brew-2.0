@@ -551,6 +551,10 @@ input:focus {
   padding: 40px 20px;
 }
 
+.result__loading[hidden] {
+  display: none;
+}
+
 .spinner {
   width: 40px;
   height: 40px;
