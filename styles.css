@@ -402,14 +402,11 @@ input:focus {
 }
 
 .footer {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--ink-soft);
-  text-align: center;
-  position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 12px;
+  justify-content: space-between;
 }
 
 /* Settings Button */
@@ -417,19 +414,20 @@ input:focus {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
+  width: 34px;
+  height: 34px;
   border: none;
-  background: rgba(165, 106, 67, 0.15);
+  background: rgba(158, 95, 53, 0.12);
   border-radius: 999px;
-  color: var(--ink);
+  color: var(--ink-soft);
   cursor: pointer;
-  transition: background 0.2s ease, transform 0.2s ease;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
 .settings-btn:hover {
-  background: rgba(165, 106, 67, 0.3);
-  transform: scale(1.05);
+  background: rgba(158, 95, 53, 0.22);
+  color: var(--ink);
+  transform: rotate(30deg);
 }
 
 /* Modal */
