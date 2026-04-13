@@ -289,9 +289,9 @@ async function getAIRecommendation(moods, weather, temp, time, location) {
 Suggest ONE coffee or tea drink that fits this moment. Respond ONLY in valid JSON format with these exact keys:
 {
   "name": "Drink name",
-  "description": "Brief description in one sentence",
-  "recipe": ["step 1", "step 2", "step 3"],
-  "why": "Why this drink fits the moment (one sentence)"
+  "description": "Brief one-sentence description",
+  "experience": "2-3 sentences painting a vivid sensory picture — the aroma, flavor, texture, and feeling of drinking it",
+  "why": "A fun, playful, or poetic 1-2 sentences on why this drink is perfect for this exact mood and moment — be witty, warm, or a little unexpected"
 }`;
 
   const response = await fetch(WORKER_URL, {
@@ -340,7 +340,7 @@ Suggest ONE coffee or tea drink that fits this moment. Respond ONLY in valid JSO
     return {
       title: parsed.name || "AI Recommended Drink",
       description: parsed.description || "",
-      details: parsed.recipe || [],
+      details: parsed.experience || "",
       whyThisDrink: parsed.why || ""
     };
   } catch (parseError) {
@@ -735,18 +735,17 @@ function renderRecommendation(recommendation) {
   description.textContent = recommendation.description;
   details.innerHTML = "";
 
-  recommendation.details.forEach((line, index) => {
-    const item = document.createElement("div");
-    item.textContent = line;
-    item.style.animationDelay = `${index * 0.08}s`;
+  if (recommendation.details) {
+    const item = document.createElement("p");
+    item.textContent = recommendation.details;
     item.classList.add("result__detail", "animate-in");
     details.appendChild(item);
-  });
+  }
 
   if (recommendation.whyThisDrink) {
     const whyWrap = document.createElement("div");
     whyWrap.classList.add("result__why-wrap", "animate-in");
-    whyWrap.style.animationDelay = `${recommendation.details.length * 0.08}s`;
+    whyWrap.style.animationDelay = "0.08s";
 
     const whyToggle = document.createElement("button");
     whyToggle.type = "button";
@@ -887,7 +886,6 @@ function mapWeatherCode(code) {
 
 locationInput.addEventListener("input", () => {
   const value = sanitizeLocation(locationInput.value);
-  locationInput.value = value;
   const valueLower = value.toLowerCase();
 
   // exact match selects immediately
