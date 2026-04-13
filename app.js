@@ -298,7 +298,6 @@ Suggest ONE coffee or tea drink that fits this moment. Respond ONLY in valid JSO
     method: "POST",
     headers: {
       "x-api-key": apiKey,
-      "anthropic-version": "2023-06-01",
       "content-type": "application/json"
     },
     body: JSON.stringify({
@@ -1080,7 +1079,6 @@ async function saveSettings() {
         method: "POST",
         headers: {
           "x-api-key": newKey,
-          "anthropic-version": "2023-06-01",
           "content-type": "application/json"
         },
         body: JSON.stringify({
